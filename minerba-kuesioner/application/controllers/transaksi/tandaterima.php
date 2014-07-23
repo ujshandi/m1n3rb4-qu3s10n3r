@@ -29,7 +29,7 @@ class Tandaterima extends CI_Controller {
     }
     
     function draft(){
-        $data['title'] = 'Tanda Terima';		
+        $data['title'] = 'Tanda Terima test';		
         $data['objectId'] = 'ttdraft';
         $data['tipetandaterima'] = 'draft';
         

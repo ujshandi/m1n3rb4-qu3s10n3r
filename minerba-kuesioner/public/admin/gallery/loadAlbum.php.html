@@ -1,0 +1,179 @@
+<script type="text/javascript">
+$(function() {		  	
+	// move images  to  news album
+	$('.album').droppable({
+		hoverClass: 'over',
+		activeClass: 'dragging',
+		drop:function(event,ui){
+			
+			 if($(this).hasClass('selected')) return false;
+						 loading('Moving',0);
+						 var album = $(this).attr('id');		
+						 var datavalue='newalbumid='+album+'&lastalbumid='+ ui.draggable.imgdata(2)+'&picid='+ ui.draggable.imgdata(0); 
+						$.ajax({
+							url: "gallery/move.php",
+							data: datavalue,
+							success: function(data){	
+								if(data.check==0){showError('Error');return false;}
+										ui.helper.fadeOut(function(){ui.helper.remove();});				
+										$('#albumsLoad').fadeOut().load('gallery/loadAlbum.php').fadeIn(function(){ 
+																	$('#albumsLoad #albumsList').find("#"+ui.draggable.imgdata(2)).addClass('selected');
+																	unloading(); 																							
+											});		
+							},
+							cache: false,type: "POST",dataType: 'json'
+						});
+			
+			ui.helper.fadeOut(400);
+			setTimeout("unloading()",1500); 		
+
+		},
+		tolerance:'pointer'
+	});
+	// mouseenter Over album with  CSS3
+	$(".preview").delegate('img', 'mouseenter', function() {
+		  if ($(this).hasClass('stackphotos')) {
+		  var $parent = $(this).parent();
+		  $parent.find('img#photo1').addClass('rotate1');
+		  $parent.find('img#photo2').addClass('rotate2');
+		  $parent.find('img#photo3').addClass('rotate3');
+		  }
+	  }).delegate('img', 'mouseleave', function() {
+		  $('img#photo1').removeClass('rotate1');
+		  $('img#photo2').removeClass('rotate2');
+		  $('img#photo3').removeClass('rotate3');
+	});
+	// jScrollPane  Overflow
+	$('#albumsList').jScrollPane({ autoReinitialise: true });
+	$('.album.load').live('click',function(e){
+		  $('.album').removeClass('selected');
+		  var albumid=$(this).attr('id');
+		  $(this).addClass('selected');
+		  loadalbum(albumid);
+	});
+	function loadalbum(albumid){
+			loading('Loading');
+			$('.screen-msg').hide();
+			$('#imageLoad').load("gallery/loadpics.php?albumid="+albumid,function(){
+			  imgRow();
+			  
+						  $("#uploadAlbum").attr('href','modalupload.php?albumid='+albumid); 	
+						  $("#uploadDisableBut").hide();
+						  $('#uploadAlbum').removeClass('disable secure ').addClass('special add  ');
+
+			  unloading();												   
+			});
+		}
+				  
+ }); 
+</script>   
+ <div id="albumsList">
+                  <div class="album load" id="151">
+                      <div class="preview">
+					                                   <img width="130" id="photo1" class="stackphotos" src="gallery/s/iLWPVQH3oRXhKb1q6w74C8UpMDadYErA-orAgDEfM7ziYIdWaL5jCGcne6ZxbvhJR.jpg" alt="Thumbnail" />
+                                                                  <img width="130" id="photo2" class="stackphotos" src="gallery/s/QV6B9urvgezNialGb7nMHK1FtIyXjm8c-o8nAwzBL56y9aXgS1fQE30GilHIqvFsc.jpg" alt="Thumbnail" />
+                                                                    <img width="130" id="photo3" class="stackphotos" src="gallery/s/qFyru64jDUZgINXWH73JoTkmCwhpGAsf-3xANb0fGFYWryLj4ZnlQcagHV6RSKvJ1.jpg" alt="Thumbnail" />
+                                                  <div style="clear:both"></div>
+                      </div>
+
+                  <div class="title">2012-11-25</div>
+                            <div class="stats">Images: <span class="picCount">6</span></div>
+                            <div class="clear"></div>
+                   </div>
+                 <div class="album load" id="149">
+                      <div class="preview">
+					                                     <img width="130" id="p1" class="stackphotos" src="images/icon/empty_album_icon_small.jpg" alt="Thumbnail" />
+                                                  <div style="clear:both"></div>
+                      </div>
+
+                  <div class="title">2012-11-24</div>
+                            <div class="stats">Images: <span class="picCount">0</span></div>
+                            <div class="clear"></div>
+                   </div>
+                 <div class="album load" id="148">
+                      <div class="preview">
+					                                     <img width="130" id="p1" class="stackphotos" src="gallery/s/MCipSAwcqFodVbXWfHZx9725s4yUt3Rr-cbwJQBPUnAzR80vIukGxeMKgr42VfLi7.jpg" alt="Thumbnail" />
+                                                  <div style="clear:both"></div>
+                      </div>
+
+                  <div class="title">asdasd</div>
+                            <div class="stats">Images: <span class="picCount">1</span></div>
+                            <div class="clear"></div>
+                   </div>
+                 <div class="album load" id="146">
+                      <div class="preview">
+					                                     <img width="130" id="p1" class="stackphotos" src="images/icon/empty_album_icon_small.jpg" alt="Thumbnail" />
+                                                  <div style="clear:both"></div>
+                      </div>
+
+                  <div class="title">2012-11-22</div>
+                            <div class="stats">Images: <span class="picCount">0</span></div>
+                            <div class="clear"></div>
+                   </div>
+                 <div class="album load" id="145">
+                      <div class="preview">
+					                                     <img width="130" id="p1" class="stackphotos" src="gallery/s/QUpbfAmhqxZtWuec2iMRvsG8Hn9SlYw3-4oSV9l3M6hIgskn1NPD0pLaAf2rQXdem.jpg" alt="Thumbnail" />
+                                                  <div style="clear:both"></div>
+                      </div>
+
+                  <div class="title">Tommy</div>
+                            <div class="stats">Images: <span class="picCount">1</span></div>
+                            <div class="clear"></div>
+                   </div>
+                 <div class="album load" id="140">
+                      <div class="preview">
+					                                     <img width="130" id="p1" class="stackphotos" src="gallery/s/vs7YHDmeSV6rIhL2qKdZaQlfbGowUcJN-M5BoQpKlk3tegSn9HIz1ETcDW8fuhFb4.jpg" alt="Thumbnail" />
+                                                  <div style="clear:both"></div>
+                      </div>
+
+                  <div class="title"></div>
+                            <div class="stats">Images: <span class="picCount">1</span></div>
+                            <div class="clear"></div>
+                   </div>
+                 <div class="album load" id="138">
+                      <div class="preview">
+					                                   <img width="130" id="photo1" class="stackphotos" src="gallery/s/JawqnVishLFdpulDjZQMR0KoPHW7U8t6-5zsB7FrgMoSH8Q4fpL0nA91q3adb2Iwy.png" alt="Thumbnail" />
+                                                                  <img width="130" id="photo2" class="stackphotos" src="gallery/s/m1DV2EtYwPFzU4p8avl7LQiMCRWrX93e-ICAdjscJeRx46QDgE0zTqFbL5lYpPwkf.png" alt="Thumbnail" />
+                                                                    <img width="130" id="photo3" class="stackphotos" src="gallery/s/47xsXhVZeo5kqrifGa6cHUlm1pCKyDtI-5XtKbP8yeRaiU3wokx4g6ESJCurVMflW.png" alt="Thumbnail" />
+                                                  <div style="clear:both"></div>
+                      </div>
+
+                  <div class="title">2012</div>
+                            <div class="stats">Images: <span class="picCount">4</span></div>
+                            <div class="clear"></div>
+                   </div>
+                 <div class="album load" id="137">
+                      <div class="preview">
+					                                     <img width="130" id="p1" class="stackphotos" src="gallery/s/2Mf8URVtZPFbal5JvsTQriueyNAjECpG-FTlK0L6S9ykhoDzYpBINsJjbM1V4itZc.png" alt="Thumbnail" />
+                                                  <div style="clear:both"></div>
+                      </div>
+
+                  <div class="title">2012-11-19</div>
+                            <div class="stats">Images: <span class="picCount">1</span></div>
+                            <div class="clear"></div>
+                   </div>
+                 <div class="album load" id="136">
+                      <div class="preview">
+					                                   <img width="130" id="photo1" class="stackphotos" src="gallery/s/ihx5UQuPny8bGXjDHN7TFoJRECs29tKm-IB3JCuAzKLfXv2UMDh4ciaPFHpr91YG5.jpg" alt="Thumbnail" />
+                                                                  <img width="130" id="photo2" class="stackphotos" src="gallery/s/3CjNmVJ1eI0KcTSYfw5GgiRUF2Wqso8a-t8ehCJop1B4XW7AUE6lfISyLFzu2HNkK.jpg" alt="Thumbnail" />
+                                                                    <img width="130" id="photo3" class="stackphotos" src="gallery/s/NfJ0Hd5v96q8c2FSonrRglek4AtTQpCW-8X2fwWSbBtRYVak7ZT5dvUilycjKsJME.jpg" alt="Thumbnail" />
+                                                  <div style="clear:both"></div>
+                      </div>
+
+                  <div class="title">2012-11-18343</div>
+                            <div class="stats">Images: <span class="picCount">5</span></div>
+                            <div class="clear"></div>
+                   </div>
+                 <div class="album load" id="133">
+                      <div class="preview">
+					                                   <img width="130" id="photo1" class="stackphotos" src="gallery/s/73qEjFRNedC1coLYmiTvQJV6IlAHh8nB-FqYvdGo0E4D5e61fWBJZQ8w3aUlpugbH.png" alt="Thumbnail" />
+                                                                  <img width="130" id="photo2" class="stackphotos" src="gallery/s/vB9FNxHaIgq4nsAupM53tl7rY16ezJbP-zSd1DgEJQL3trkjAoGRUbKF6qIWyYwap.png" alt="Thumbnail" />
+                                                                    <img width="130" id="photo3" class="stackphotos" src="gallery/s/1jCzGlu05NcRpo3LVak2U6KIwDFEtBxZ-EcI3gparfy49qCejNSFX1KhMuY2wDszG.jpg" alt="Thumbnail" />
+                                                  <div style="clear:both"></div>
+                      </div>
+
+                  <div class="title">2012-11-17</div>
+                            <div class="stats">Images: <span class="picCount">9</span></div>
+                            <div class="clear"></div>
+                   </div>
+</div><!-- End albumsList -->

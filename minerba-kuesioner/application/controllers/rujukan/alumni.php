@@ -30,13 +30,20 @@ class alumni extends CI_Controller {
 
     function index()
     {
-            $data["isi"]  = 'rujukan/alumni_v_tambah';
+            $data["isi"]  = 'rujukan/alumni_tambah';
             $this->load->view('admin/index', $data);  
     }
 
-    function tambahdata()
+    function tambah()
     {
-            $data['isi'] = 'rujukan/alumni_v_tambah';
+            $data['isi'] = 'rujukan/alumni_tambah';
+            $this->load->view('admin/index',$data);  
+    }
+
+    function tampil()
+    {
+            $data['isi'] = 'rujukan/alumni_tampil';
+            $data['result'] = $this->alumni_model->tampildata();
             $this->load->view('admin/index',$data);  
     }
 

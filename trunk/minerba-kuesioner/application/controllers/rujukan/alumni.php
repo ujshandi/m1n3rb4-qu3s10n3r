@@ -22,6 +22,7 @@ class alumni extends CI_Controller {
         $this->load->model('/security/sys_menu_model');
         $this->load->model('/rujukan/alumni_model');
         $this->load->library("utility");
+        //$this->load->library("excel_reader2");
         $this->load->helper(array('form', 'url', 'inflector'));
         $this->load->library('form_validation');
 
@@ -251,7 +252,44 @@ class alumni extends CI_Controller {
     {
         $data['result']= $this->alumni_model->pilihdata($alumni_id);
         $this->load->view('rujukan/alumni_v_ubah',$data);
-    }       
+    }
 
+    function import()
+    {   
+        include_once ( APPPATH."libraries/excel_reader2.php");
+        $data = new Spreadsheet_Excel_Reader($_FILES['fileexcel']['tmp_name']);
+        $hasildata = $data->rowcount($sheet_index=0);
+
+        $sukses = 0;
+        $gagal = 0;
+
+        for ($i=2; $i<=$hasildata; $i++)
+        {
+            $nik = $data->val($i,2); 
+            $nama = $data->val($i,3);
+            //$data3 = $data->val($i,4);
+            //$created_by = 'Admin'; 
+            //$date = date('Y-m-d H:i:s');
+            //$rand = rand();
+
+            $this->alumni_model->simpan_upload($nik,$nama);
+            $query = "INSERT INTO alumni (alumni_id,nik,nama) VALUES (null,'$nik','$nama')";
+            /*$data['isi'] = 'rujukan/alumni_tampil';
+            $data['result'] = $this->alumni_model->tampildata();
+            $this->load->view('admin/index',$data);  */
+            if ($hasildata) $sukses++;
+            else $gagal++;
+  
+            echo "<pre>";
+            print_r($query);
+            echo "</pre>";
+        }
+
+        echo "<b>import data selesai.</b> <br>";
+        echo "Data yang berhasil di import : " . $sukses .  "<br>";
+        echo "Data yang gagal diimport : ".$gagal .  "<br>";
+        echo "back <a href='import.php'>import</a>";
+               
+    }    
 
 }

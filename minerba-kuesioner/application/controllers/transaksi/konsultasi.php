@@ -51,7 +51,7 @@ class Konsultasi extends CI_Controller
 
     function validasi()
     {
-        $nip=$this->input->post('nip');
+        /*$nip=$this->input->post('nip');
         $hasil=$this->m_konsultasi->getNIP($nip);
         if ($hasil != NULL)
         {
@@ -65,10 +65,10 @@ class Konsultasi extends CI_Controller
             $this->load->view("home/index",$data);
         }
         else
-        {
+        {*/
             $data['isi'] = 'home/validasi';
             $this->load->view("home/index",$data);
-        }
+        //}
     }
 
     function tampil_pertanyaan($id_komponen=NULL)     

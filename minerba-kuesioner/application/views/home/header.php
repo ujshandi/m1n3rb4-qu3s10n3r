@@ -4,7 +4,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0" />
 	<title>Pusdiklat Mineral dan Batubara</title>
-	<link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url(); ?>public/home/css/home/css/images/esdm.jpg" />
+	<link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url(); ?>public/home/css/home/css/images/esdm.png" />
 	<link rel="stylesheet" href="<?php echo base_url(); ?>public/home/css/home/css/style.css" type="text/css" media="all" />
 	
 	

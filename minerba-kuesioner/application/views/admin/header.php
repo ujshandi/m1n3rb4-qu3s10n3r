@@ -144,8 +144,8 @@
                       </li>
                       <li class="limenu"><a href="#"><span class="ico gray shadow abacus"></span><b>Kuesioner</b></a>
                           <ul>
-                          <li><a href="<?php echo base_url(); ?>rujukan/alumni"> Input Data</a></li>
-                          <li><a href="<?php echo base_url(); ?>rujukan/alumni/tampil"> Lihat Data</a></li>
+                          <li><a href="<?php echo base_url(); ?>rujukan/kuesioner"> Input Data</a></li>
+                          <li><a href="<?php echo base_url(); ?>rujukan/kuesioner/tampil"> Lihat Data</a></li>
                         </ul>
                       </li>
                       <li class="limenu"><a href="#"><span class="ico gray  shadow paragraph_align_left"></span><b>Model Jawaban</b></a>

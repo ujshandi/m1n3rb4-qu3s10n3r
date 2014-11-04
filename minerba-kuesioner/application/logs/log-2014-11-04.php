@@ -2901,3 +2901,1243 @@ DEBUG - 2014-11-04 15:15:59 --> UTF-8 Support Enabled
 DEBUG - 2014-11-04 15:15:59 --> URI Class Initialized
 DEBUG - 2014-11-04 15:15:59 --> Router Class Initialized
 ERROR - 2014-11-04 15:15:59 --> 404 Page Not Found --> konsultasi
+DEBUG - 2014-11-04 15:17:51 --> Config Class Initialized
+DEBUG - 2014-11-04 15:17:51 --> Hooks Class Initialized
+DEBUG - 2014-11-04 15:17:51 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 15:17:51 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 15:17:51 --> URI Class Initialized
+DEBUG - 2014-11-04 15:17:51 --> Router Class Initialized
+DEBUG - 2014-11-04 15:17:51 --> Output Class Initialized
+DEBUG - 2014-11-04 15:17:51 --> Security Class Initialized
+DEBUG - 2014-11-04 15:17:51 --> Input Class Initialized
+DEBUG - 2014-11-04 15:17:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-11-04 15:17:51 --> Language Class Initialized
+DEBUG - 2014-11-04 15:17:51 --> Loader Class Initialized
+DEBUG - 2014-11-04 15:17:51 --> Helper loaded: url_helper
+DEBUG - 2014-11-04 15:17:51 --> Helper loaded: file_helper
+DEBUG - 2014-11-04 15:17:51 --> Helper loaded: base_helper
+DEBUG - 2014-11-04 15:17:51 --> Helper loaded: to_excel_helper
+DEBUG - 2014-11-04 15:17:51 --> Helper loaded: form_helper
+DEBUG - 2014-11-04 15:17:51 --> Database Driver Class Initialized
+DEBUG - 2014-11-04 15:17:51 --> Session Class Initialized
+DEBUG - 2014-11-04 15:17:51 --> Helper loaded: string_helper
+DEBUG - 2014-11-04 15:17:51 --> Session routines successfully run
+DEBUG - 2014-11-04 15:17:51 --> Controller Class Initialized
+DEBUG - 2014-11-04 15:17:51 --> Model Class Initialized
+DEBUG - 2014-11-04 15:17:51 --> Model Class Initialized
+DEBUG - 2014-11-04 15:17:51 --> Model Class Initialized
+DEBUG - 2014-11-04 15:17:51 --> Model Class Initialized
+DEBUG - 2014-11-04 15:17:51 --> Helper loaded: inflector_helper
+DEBUG - 2014-11-04 15:17:51 --> Form Validation Class Initialized
+DEBUG - 2014-11-04 15:17:51 --> File loaded: application/views/admin/header.php
+DEBUG - 2014-11-04 15:17:51 --> File loaded: application/views/rujukan/alumni_tambah.php
+DEBUG - 2014-11-04 15:17:51 --> File loaded: application/views/admin/footer.php
+DEBUG - 2014-11-04 15:17:51 --> File loaded: application/views/admin/index.php
+DEBUG - 2014-11-04 15:17:51 --> Final output sent to browser
+DEBUG - 2014-11-04 15:17:51 --> Total execution time: 0.1489
+DEBUG - 2014-11-04 15:17:51 --> Config Class Initialized
+DEBUG - 2014-11-04 15:17:51 --> Hooks Class Initialized
+DEBUG - 2014-11-04 15:17:51 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 15:17:51 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 15:17:51 --> URI Class Initialized
+DEBUG - 2014-11-04 15:17:51 --> Router Class Initialized
+ERROR - 2014-11-04 15:17:51 --> 404 Page Not Found --> rujukan/%3C
+DEBUG - 2014-11-04 15:17:51 --> Config Class Initialized
+DEBUG - 2014-11-04 15:17:51 --> Hooks Class Initialized
+DEBUG - 2014-11-04 15:17:51 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 15:17:51 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 15:17:51 --> URI Class Initialized
+DEBUG - 2014-11-04 15:17:51 --> Router Class Initialized
+ERROR - 2014-11-04 15:17:51 --> 404 Page Not Found --> rujukan/images
+DEBUG - 2014-11-04 15:24:41 --> Config Class Initialized
+DEBUG - 2014-11-04 15:24:41 --> Hooks Class Initialized
+DEBUG - 2014-11-04 15:24:41 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 15:24:41 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 15:24:41 --> URI Class Initialized
+DEBUG - 2014-11-04 15:24:41 --> Router Class Initialized
+DEBUG - 2014-11-04 15:24:41 --> Output Class Initialized
+DEBUG - 2014-11-04 15:24:41 --> Security Class Initialized
+DEBUG - 2014-11-04 15:24:41 --> Input Class Initialized
+DEBUG - 2014-11-04 15:24:41 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-11-04 15:24:41 --> Language Class Initialized
+DEBUG - 2014-11-04 15:24:41 --> Loader Class Initialized
+DEBUG - 2014-11-04 15:24:41 --> Helper loaded: url_helper
+DEBUG - 2014-11-04 15:24:41 --> Helper loaded: file_helper
+DEBUG - 2014-11-04 15:24:41 --> Helper loaded: base_helper
+DEBUG - 2014-11-04 15:24:41 --> Helper loaded: to_excel_helper
+DEBUG - 2014-11-04 15:24:41 --> Helper loaded: form_helper
+DEBUG - 2014-11-04 15:24:41 --> Database Driver Class Initialized
+DEBUG - 2014-11-04 15:24:41 --> Session Class Initialized
+DEBUG - 2014-11-04 15:24:41 --> Helper loaded: string_helper
+DEBUG - 2014-11-04 15:24:41 --> Session routines successfully run
+DEBUG - 2014-11-04 15:24:41 --> Controller Class Initialized
+DEBUG - 2014-11-04 15:24:41 --> Model Class Initialized
+DEBUG - 2014-11-04 15:24:41 --> Model Class Initialized
+DEBUG - 2014-11-04 15:24:41 --> Model Class Initialized
+DEBUG - 2014-11-04 15:24:41 --> Model Class Initialized
+DEBUG - 2014-11-04 15:24:41 --> Helper loaded: inflector_helper
+DEBUG - 2014-11-04 15:24:41 --> Form Validation Class Initialized
+DEBUG - 2014-11-04 15:24:41 --> File loaded: application/views/admin/header.php
+DEBUG - 2014-11-04 15:24:41 --> File loaded: application/views/rujukan/alumni_tambah.php
+DEBUG - 2014-11-04 15:24:41 --> File loaded: application/views/admin/footer.php
+DEBUG - 2014-11-04 15:24:41 --> File loaded: application/views/admin/index.php
+DEBUG - 2014-11-04 15:24:41 --> Final output sent to browser
+DEBUG - 2014-11-04 15:24:41 --> Total execution time: 0.0857
+DEBUG - 2014-11-04 15:24:41 --> Config Class Initialized
+DEBUG - 2014-11-04 15:24:41 --> Hooks Class Initialized
+DEBUG - 2014-11-04 15:24:41 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 15:24:41 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 15:24:41 --> URI Class Initialized
+DEBUG - 2014-11-04 15:24:41 --> Router Class Initialized
+ERROR - 2014-11-04 15:24:41 --> 404 Page Not Found --> rujukan/%3C
+DEBUG - 2014-11-04 15:24:41 --> Config Class Initialized
+DEBUG - 2014-11-04 15:24:41 --> Hooks Class Initialized
+DEBUG - 2014-11-04 15:24:41 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 15:24:41 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 15:24:41 --> URI Class Initialized
+DEBUG - 2014-11-04 15:24:41 --> Router Class Initialized
+ERROR - 2014-11-04 15:24:41 --> 404 Page Not Found --> rujukan/images
+DEBUG - 2014-11-04 15:24:44 --> Config Class Initialized
+DEBUG - 2014-11-04 15:24:44 --> Hooks Class Initialized
+DEBUG - 2014-11-04 15:24:44 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 15:24:44 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 15:24:44 --> URI Class Initialized
+DEBUG - 2014-11-04 15:24:44 --> Router Class Initialized
+DEBUG - 2014-11-04 15:24:44 --> Output Class Initialized
+DEBUG - 2014-11-04 15:24:44 --> Security Class Initialized
+DEBUG - 2014-11-04 15:24:44 --> Input Class Initialized
+DEBUG - 2014-11-04 15:24:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-11-04 15:24:44 --> Language Class Initialized
+DEBUG - 2014-11-04 15:24:44 --> Loader Class Initialized
+DEBUG - 2014-11-04 15:24:44 --> Helper loaded: url_helper
+DEBUG - 2014-11-04 15:24:44 --> Helper loaded: file_helper
+DEBUG - 2014-11-04 15:24:44 --> Helper loaded: base_helper
+DEBUG - 2014-11-04 15:24:44 --> Helper loaded: to_excel_helper
+DEBUG - 2014-11-04 15:24:44 --> Helper loaded: form_helper
+DEBUG - 2014-11-04 15:24:44 --> Database Driver Class Initialized
+DEBUG - 2014-11-04 15:24:44 --> Session Class Initialized
+DEBUG - 2014-11-04 15:24:44 --> Helper loaded: string_helper
+DEBUG - 2014-11-04 15:24:44 --> Session routines successfully run
+DEBUG - 2014-11-04 15:24:44 --> Controller Class Initialized
+DEBUG - 2014-11-04 15:24:44 --> Model Class Initialized
+DEBUG - 2014-11-04 15:24:44 --> Model Class Initialized
+DEBUG - 2014-11-04 15:24:44 --> Model Class Initialized
+DEBUG - 2014-11-04 15:24:44 --> Model Class Initialized
+DEBUG - 2014-11-04 15:24:44 --> Model Class Initialized
+DEBUG - 2014-11-04 15:24:44 --> Helper loaded: inflector_helper
+DEBUG - 2014-11-04 15:24:44 --> Form Validation Class Initialized
+DEBUG - 2014-11-04 15:24:44 --> File loaded: application/views/admin/header.php
+DEBUG - 2014-11-04 15:24:44 --> File loaded: application/views/rujukan/kuesioner_pertanyaan_tambah.php
+DEBUG - 2014-11-04 15:24:44 --> File loaded: application/views/admin/footer.php
+DEBUG - 2014-11-04 15:24:44 --> File loaded: application/views/admin/index.php
+DEBUG - 2014-11-04 15:24:44 --> Final output sent to browser
+DEBUG - 2014-11-04 15:24:44 --> Total execution time: 0.0887
+DEBUG - 2014-11-04 15:24:45 --> Config Class Initialized
+DEBUG - 2014-11-04 15:24:45 --> Hooks Class Initialized
+DEBUG - 2014-11-04 15:24:45 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 15:24:45 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 15:24:45 --> URI Class Initialized
+DEBUG - 2014-11-04 15:24:45 --> Router Class Initialized
+ERROR - 2014-11-04 15:24:45 --> 404 Page Not Found --> rujukan/%3C
+DEBUG - 2014-11-04 15:29:52 --> Config Class Initialized
+DEBUG - 2014-11-04 15:29:52 --> Hooks Class Initialized
+DEBUG - 2014-11-04 15:29:52 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 15:29:52 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 15:29:52 --> URI Class Initialized
+DEBUG - 2014-11-04 15:29:52 --> Router Class Initialized
+DEBUG - 2014-11-04 15:29:52 --> Output Class Initialized
+DEBUG - 2014-11-04 15:29:52 --> Security Class Initialized
+DEBUG - 2014-11-04 15:29:52 --> Input Class Initialized
+DEBUG - 2014-11-04 15:29:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-11-04 15:29:52 --> Language Class Initialized
+DEBUG - 2014-11-04 15:29:52 --> Loader Class Initialized
+DEBUG - 2014-11-04 15:29:52 --> Helper loaded: url_helper
+DEBUG - 2014-11-04 15:29:52 --> Helper loaded: file_helper
+DEBUG - 2014-11-04 15:29:52 --> Helper loaded: base_helper
+DEBUG - 2014-11-04 15:29:52 --> Helper loaded: to_excel_helper
+DEBUG - 2014-11-04 15:29:52 --> Helper loaded: form_helper
+DEBUG - 2014-11-04 15:29:52 --> Database Driver Class Initialized
+DEBUG - 2014-11-04 15:29:52 --> Session Class Initialized
+DEBUG - 2014-11-04 15:29:52 --> Helper loaded: string_helper
+DEBUG - 2014-11-04 15:29:52 --> Session routines successfully run
+DEBUG - 2014-11-04 15:29:52 --> Controller Class Initialized
+DEBUG - 2014-11-04 15:29:52 --> Model Class Initialized
+DEBUG - 2014-11-04 15:29:52 --> Model Class Initialized
+DEBUG - 2014-11-04 15:29:52 --> Model Class Initialized
+DEBUG - 2014-11-04 15:29:52 --> Model Class Initialized
+DEBUG - 2014-11-04 15:29:52 --> Model Class Initialized
+DEBUG - 2014-11-04 15:29:52 --> Helper loaded: inflector_helper
+DEBUG - 2014-11-04 15:29:52 --> Form Validation Class Initialized
+DEBUG - 2014-11-04 15:29:52 --> File loaded: application/views/admin/header.php
+DEBUG - 2014-11-04 15:29:52 --> File loaded: application/views/rujukan/kuesioner_pertanyaan_tambah.php
+DEBUG - 2014-11-04 15:29:52 --> File loaded: application/views/admin/footer.php
+DEBUG - 2014-11-04 15:29:52 --> File loaded: application/views/admin/index.php
+DEBUG - 2014-11-04 15:29:52 --> Final output sent to browser
+DEBUG - 2014-11-04 15:29:52 --> Total execution time: 0.0971
+DEBUG - 2014-11-04 15:29:53 --> Config Class Initialized
+DEBUG - 2014-11-04 15:29:53 --> Hooks Class Initialized
+DEBUG - 2014-11-04 15:29:53 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 15:29:53 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 15:29:53 --> URI Class Initialized
+DEBUG - 2014-11-04 15:29:53 --> Router Class Initialized
+ERROR - 2014-11-04 15:29:53 --> 404 Page Not Found --> rujukan/%3C
+DEBUG - 2014-11-04 15:35:41 --> Config Class Initialized
+DEBUG - 2014-11-04 15:35:41 --> Hooks Class Initialized
+DEBUG - 2014-11-04 15:35:41 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 15:35:41 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 15:35:41 --> URI Class Initialized
+DEBUG - 2014-11-04 15:35:41 --> Router Class Initialized
+DEBUG - 2014-11-04 15:35:41 --> Output Class Initialized
+DEBUG - 2014-11-04 15:35:41 --> Security Class Initialized
+DEBUG - 2014-11-04 15:35:41 --> Input Class Initialized
+DEBUG - 2014-11-04 15:35:41 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-11-04 15:35:41 --> Language Class Initialized
+DEBUG - 2014-11-04 15:35:41 --> Loader Class Initialized
+DEBUG - 2014-11-04 15:35:41 --> Helper loaded: url_helper
+DEBUG - 2014-11-04 15:35:41 --> Helper loaded: file_helper
+DEBUG - 2014-11-04 15:35:41 --> Helper loaded: base_helper
+DEBUG - 2014-11-04 15:35:41 --> Helper loaded: to_excel_helper
+DEBUG - 2014-11-04 15:35:41 --> Helper loaded: form_helper
+DEBUG - 2014-11-04 15:35:41 --> Database Driver Class Initialized
+DEBUG - 2014-11-04 15:35:41 --> Session Class Initialized
+DEBUG - 2014-11-04 15:35:41 --> Helper loaded: string_helper
+DEBUG - 2014-11-04 15:35:41 --> Session routines successfully run
+DEBUG - 2014-11-04 15:35:41 --> Controller Class Initialized
+DEBUG - 2014-11-04 15:35:41 --> Model Class Initialized
+DEBUG - 2014-11-04 15:35:41 --> Model Class Initialized
+DEBUG - 2014-11-04 15:35:41 --> Model Class Initialized
+DEBUG - 2014-11-04 15:35:41 --> Model Class Initialized
+DEBUG - 2014-11-04 15:35:41 --> Model Class Initialized
+DEBUG - 2014-11-04 15:35:41 --> Helper loaded: inflector_helper
+DEBUG - 2014-11-04 15:35:41 --> Form Validation Class Initialized
+DEBUG - 2014-11-04 15:35:41 --> File loaded: application/views/admin/header.php
+DEBUG - 2014-11-04 15:35:41 --> File loaded: application/views/rujukan/kuesioner_pertanyaan_tambah.php
+DEBUG - 2014-11-04 15:35:41 --> File loaded: application/views/admin/footer.php
+DEBUG - 2014-11-04 15:35:41 --> File loaded: application/views/admin/index.php
+DEBUG - 2014-11-04 15:35:41 --> Final output sent to browser
+DEBUG - 2014-11-04 15:35:41 --> Total execution time: 0.0913
+DEBUG - 2014-11-04 15:35:42 --> Config Class Initialized
+DEBUG - 2014-11-04 15:35:42 --> Hooks Class Initialized
+DEBUG - 2014-11-04 15:35:42 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 15:35:42 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 15:35:42 --> URI Class Initialized
+DEBUG - 2014-11-04 15:35:42 --> Router Class Initialized
+ERROR - 2014-11-04 15:35:42 --> 404 Page Not Found --> rujukan/%3C
+DEBUG - 2014-11-04 15:36:19 --> Config Class Initialized
+DEBUG - 2014-11-04 15:36:19 --> Hooks Class Initialized
+DEBUG - 2014-11-04 15:36:19 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 15:36:19 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 15:36:19 --> URI Class Initialized
+DEBUG - 2014-11-04 15:36:19 --> Router Class Initialized
+DEBUG - 2014-11-04 15:36:19 --> Output Class Initialized
+DEBUG - 2014-11-04 15:36:19 --> Security Class Initialized
+DEBUG - 2014-11-04 15:36:19 --> Input Class Initialized
+DEBUG - 2014-11-04 15:36:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-11-04 15:36:19 --> Language Class Initialized
+DEBUG - 2014-11-04 15:36:19 --> Loader Class Initialized
+DEBUG - 2014-11-04 15:36:19 --> Helper loaded: url_helper
+DEBUG - 2014-11-04 15:36:19 --> Helper loaded: file_helper
+DEBUG - 2014-11-04 15:36:19 --> Helper loaded: base_helper
+DEBUG - 2014-11-04 15:36:19 --> Helper loaded: to_excel_helper
+DEBUG - 2014-11-04 15:36:19 --> Helper loaded: form_helper
+DEBUG - 2014-11-04 15:36:19 --> Database Driver Class Initialized
+DEBUG - 2014-11-04 15:36:19 --> Session Class Initialized
+DEBUG - 2014-11-04 15:36:19 --> Helper loaded: string_helper
+DEBUG - 2014-11-04 15:36:19 --> Session routines successfully run
+DEBUG - 2014-11-04 15:36:19 --> Controller Class Initialized
+DEBUG - 2014-11-04 15:36:19 --> Model Class Initialized
+DEBUG - 2014-11-04 15:36:19 --> Model Class Initialized
+DEBUG - 2014-11-04 15:36:19 --> Model Class Initialized
+DEBUG - 2014-11-04 15:36:19 --> Model Class Initialized
+DEBUG - 2014-11-04 15:36:19 --> Model Class Initialized
+DEBUG - 2014-11-04 15:36:19 --> Helper loaded: inflector_helper
+DEBUG - 2014-11-04 15:36:19 --> Form Validation Class Initialized
+DEBUG - 2014-11-04 15:36:19 --> File loaded: application/views/admin/header.php
+DEBUG - 2014-11-04 15:36:19 --> File loaded: application/views/rujukan/kuesioner_pertanyaan_tambah.php
+DEBUG - 2014-11-04 15:36:19 --> File loaded: application/views/admin/footer.php
+DEBUG - 2014-11-04 15:36:19 --> File loaded: application/views/admin/index.php
+DEBUG - 2014-11-04 15:36:19 --> Final output sent to browser
+DEBUG - 2014-11-04 15:36:19 --> Total execution time: 0.0858
+DEBUG - 2014-11-04 15:36:20 --> Config Class Initialized
+DEBUG - 2014-11-04 15:36:20 --> Hooks Class Initialized
+DEBUG - 2014-11-04 15:36:20 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 15:36:20 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 15:36:20 --> URI Class Initialized
+DEBUG - 2014-11-04 15:36:20 --> Router Class Initialized
+ERROR - 2014-11-04 15:36:20 --> 404 Page Not Found --> rujukan/%3C
+DEBUG - 2014-11-04 15:42:32 --> Config Class Initialized
+DEBUG - 2014-11-04 15:42:32 --> Hooks Class Initialized
+DEBUG - 2014-11-04 15:42:32 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 15:42:32 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 15:42:32 --> URI Class Initialized
+DEBUG - 2014-11-04 15:42:32 --> Router Class Initialized
+DEBUG - 2014-11-04 15:42:32 --> Output Class Initialized
+DEBUG - 2014-11-04 15:42:32 --> Security Class Initialized
+DEBUG - 2014-11-04 15:42:32 --> Input Class Initialized
+DEBUG - 2014-11-04 15:42:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-11-04 15:42:32 --> Language Class Initialized
+DEBUG - 2014-11-04 15:42:32 --> Loader Class Initialized
+DEBUG - 2014-11-04 15:42:32 --> Helper loaded: url_helper
+DEBUG - 2014-11-04 15:42:32 --> Helper loaded: file_helper
+DEBUG - 2014-11-04 15:42:32 --> Helper loaded: base_helper
+DEBUG - 2014-11-04 15:42:32 --> Helper loaded: to_excel_helper
+DEBUG - 2014-11-04 15:42:32 --> Helper loaded: form_helper
+DEBUG - 2014-11-04 15:42:32 --> Database Driver Class Initialized
+DEBUG - 2014-11-04 15:42:32 --> Session Class Initialized
+DEBUG - 2014-11-04 15:42:32 --> Helper loaded: string_helper
+DEBUG - 2014-11-04 15:42:32 --> Session routines successfully run
+DEBUG - 2014-11-04 15:42:32 --> Controller Class Initialized
+DEBUG - 2014-11-04 15:42:32 --> Model Class Initialized
+DEBUG - 2014-11-04 15:42:32 --> Model Class Initialized
+DEBUG - 2014-11-04 15:42:32 --> Model Class Initialized
+DEBUG - 2014-11-04 15:42:32 --> Model Class Initialized
+DEBUG - 2014-11-04 15:42:32 --> Model Class Initialized
+DEBUG - 2014-11-04 15:42:32 --> Helper loaded: inflector_helper
+DEBUG - 2014-11-04 15:42:32 --> Form Validation Class Initialized
+DEBUG - 2014-11-04 15:42:32 --> File loaded: application/views/admin/header.php
+ERROR - 2014-11-04 15:42:32 --> Severity: Notice  --> Undefined variable: result C:\xampp\htdocs\m1n3rb4-qu3s10n3r\minerba-kuesioner\application\views\rujukan\kuesioner_pertanyaan_tambah.php 17
+DEBUG - 2014-11-04 15:42:33 --> Config Class Initialized
+DEBUG - 2014-11-04 15:42:33 --> Hooks Class Initialized
+DEBUG - 2014-11-04 15:42:33 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 15:42:33 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 15:42:33 --> URI Class Initialized
+DEBUG - 2014-11-04 15:42:33 --> Router Class Initialized
+ERROR - 2014-11-04 15:42:33 --> 404 Page Not Found --> rujukan/%3C
+DEBUG - 2014-11-04 15:43:12 --> Config Class Initialized
+DEBUG - 2014-11-04 15:43:12 --> Hooks Class Initialized
+DEBUG - 2014-11-04 15:43:12 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 15:43:12 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 15:43:12 --> URI Class Initialized
+DEBUG - 2014-11-04 15:43:12 --> Router Class Initialized
+DEBUG - 2014-11-04 15:43:12 --> Output Class Initialized
+DEBUG - 2014-11-04 15:43:12 --> Security Class Initialized
+DEBUG - 2014-11-04 15:43:12 --> Input Class Initialized
+DEBUG - 2014-11-04 15:43:12 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-11-04 15:43:12 --> Language Class Initialized
+DEBUG - 2014-11-04 15:43:12 --> Loader Class Initialized
+DEBUG - 2014-11-04 15:43:12 --> Helper loaded: url_helper
+DEBUG - 2014-11-04 15:43:12 --> Helper loaded: file_helper
+DEBUG - 2014-11-04 15:43:12 --> Helper loaded: base_helper
+DEBUG - 2014-11-04 15:43:12 --> Helper loaded: to_excel_helper
+DEBUG - 2014-11-04 15:43:12 --> Helper loaded: form_helper
+DEBUG - 2014-11-04 15:43:12 --> Database Driver Class Initialized
+DEBUG - 2014-11-04 15:43:12 --> Session Class Initialized
+DEBUG - 2014-11-04 15:43:12 --> Helper loaded: string_helper
+DEBUG - 2014-11-04 15:43:12 --> Session routines successfully run
+DEBUG - 2014-11-04 15:43:12 --> Controller Class Initialized
+DEBUG - 2014-11-04 15:43:12 --> Model Class Initialized
+DEBUG - 2014-11-04 15:43:12 --> Model Class Initialized
+DEBUG - 2014-11-04 15:43:12 --> Model Class Initialized
+DEBUG - 2014-11-04 15:43:12 --> Model Class Initialized
+DEBUG - 2014-11-04 15:43:12 --> Model Class Initialized
+DEBUG - 2014-11-04 15:43:12 --> Helper loaded: inflector_helper
+DEBUG - 2014-11-04 15:43:12 --> Form Validation Class Initialized
+DEBUG - 2014-11-04 15:43:12 --> File loaded: application/views/admin/header.php
+ERROR - 2014-11-04 15:43:12 --> Severity: Notice  --> Undefined variable: result C:\xampp\htdocs\m1n3rb4-qu3s10n3r\minerba-kuesioner\application\views\rujukan\kuesioner_pertanyaan_tambah.php 18
+DEBUG - 2014-11-04 15:43:12 --> Config Class Initialized
+DEBUG - 2014-11-04 15:43:12 --> Hooks Class Initialized
+DEBUG - 2014-11-04 15:43:12 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 15:43:12 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 15:43:12 --> URI Class Initialized
+DEBUG - 2014-11-04 15:43:12 --> Router Class Initialized
+ERROR - 2014-11-04 15:43:12 --> 404 Page Not Found --> rujukan/%3C
+DEBUG - 2014-11-04 15:43:51 --> Config Class Initialized
+DEBUG - 2014-11-04 15:43:51 --> Hooks Class Initialized
+DEBUG - 2014-11-04 15:43:51 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 15:43:51 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 15:43:51 --> URI Class Initialized
+DEBUG - 2014-11-04 15:43:51 --> Router Class Initialized
+DEBUG - 2014-11-04 15:43:51 --> Output Class Initialized
+DEBUG - 2014-11-04 15:43:51 --> Security Class Initialized
+DEBUG - 2014-11-04 15:43:51 --> Input Class Initialized
+DEBUG - 2014-11-04 15:43:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-11-04 15:43:51 --> Language Class Initialized
+DEBUG - 2014-11-04 15:43:51 --> Loader Class Initialized
+DEBUG - 2014-11-04 15:43:51 --> Helper loaded: url_helper
+DEBUG - 2014-11-04 15:43:51 --> Helper loaded: file_helper
+DEBUG - 2014-11-04 15:43:51 --> Helper loaded: base_helper
+DEBUG - 2014-11-04 15:43:51 --> Helper loaded: to_excel_helper
+DEBUG - 2014-11-04 15:43:51 --> Helper loaded: form_helper
+DEBUG - 2014-11-04 15:43:51 --> Database Driver Class Initialized
+DEBUG - 2014-11-04 15:43:51 --> Session Class Initialized
+DEBUG - 2014-11-04 15:43:51 --> Helper loaded: string_helper
+DEBUG - 2014-11-04 15:43:51 --> Session routines successfully run
+DEBUG - 2014-11-04 15:43:51 --> Controller Class Initialized
+DEBUG - 2014-11-04 15:43:51 --> Model Class Initialized
+DEBUG - 2014-11-04 15:43:51 --> Model Class Initialized
+DEBUG - 2014-11-04 15:43:51 --> Model Class Initialized
+DEBUG - 2014-11-04 15:43:51 --> Model Class Initialized
+DEBUG - 2014-11-04 15:43:51 --> Model Class Initialized
+DEBUG - 2014-11-04 15:43:51 --> Helper loaded: inflector_helper
+DEBUG - 2014-11-04 15:43:51 --> Form Validation Class Initialized
+DEBUG - 2014-11-04 15:43:51 --> File loaded: application/views/admin/header.php
+DEBUG - 2014-11-04 15:43:51 --> File loaded: application/views/rujukan/kuesioner_pertanyaan_tambah.php
+DEBUG - 2014-11-04 15:43:51 --> File loaded: application/views/admin/footer.php
+DEBUG - 2014-11-04 15:43:51 --> File loaded: application/views/admin/index.php
+DEBUG - 2014-11-04 15:43:51 --> Final output sent to browser
+DEBUG - 2014-11-04 15:43:51 --> Total execution time: 0.1448
+DEBUG - 2014-11-04 15:43:52 --> Config Class Initialized
+DEBUG - 2014-11-04 15:43:52 --> Hooks Class Initialized
+DEBUG - 2014-11-04 15:43:52 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 15:43:52 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 15:43:52 --> URI Class Initialized
+DEBUG - 2014-11-04 15:43:52 --> Router Class Initialized
+ERROR - 2014-11-04 15:43:52 --> 404 Page Not Found --> rujukan/%3C
+DEBUG - 2014-11-04 15:46:23 --> Config Class Initialized
+DEBUG - 2014-11-04 15:46:23 --> Hooks Class Initialized
+DEBUG - 2014-11-04 15:46:23 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 15:46:23 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 15:46:23 --> URI Class Initialized
+DEBUG - 2014-11-04 15:46:23 --> Router Class Initialized
+DEBUG - 2014-11-04 15:46:23 --> Output Class Initialized
+DEBUG - 2014-11-04 15:46:23 --> Security Class Initialized
+DEBUG - 2014-11-04 15:46:23 --> Input Class Initialized
+DEBUG - 2014-11-04 15:46:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-11-04 15:46:23 --> Language Class Initialized
+DEBUG - 2014-11-04 15:46:23 --> Loader Class Initialized
+DEBUG - 2014-11-04 15:46:23 --> Helper loaded: url_helper
+DEBUG - 2014-11-04 15:46:23 --> Helper loaded: file_helper
+DEBUG - 2014-11-04 15:46:23 --> Helper loaded: base_helper
+DEBUG - 2014-11-04 15:46:23 --> Helper loaded: to_excel_helper
+DEBUG - 2014-11-04 15:46:23 --> Helper loaded: form_helper
+DEBUG - 2014-11-04 15:46:23 --> Database Driver Class Initialized
+DEBUG - 2014-11-04 15:46:23 --> Session Class Initialized
+DEBUG - 2014-11-04 15:46:23 --> Helper loaded: string_helper
+DEBUG - 2014-11-04 15:46:23 --> Session routines successfully run
+DEBUG - 2014-11-04 15:46:23 --> Controller Class Initialized
+DEBUG - 2014-11-04 15:46:23 --> Model Class Initialized
+DEBUG - 2014-11-04 15:46:23 --> Model Class Initialized
+DEBUG - 2014-11-04 15:46:23 --> Model Class Initialized
+DEBUG - 2014-11-04 15:46:23 --> Model Class Initialized
+DEBUG - 2014-11-04 15:46:23 --> Model Class Initialized
+DEBUG - 2014-11-04 15:46:23 --> Helper loaded: inflector_helper
+DEBUG - 2014-11-04 15:46:23 --> Form Validation Class Initialized
+DEBUG - 2014-11-04 15:46:23 --> File loaded: application/views/admin/header.php
+DEBUG - 2014-11-04 15:46:23 --> File loaded: application/views/rujukan/kuesioner_pertanyaan_tambah.php
+DEBUG - 2014-11-04 15:46:23 --> File loaded: application/views/admin/footer.php
+DEBUG - 2014-11-04 15:46:23 --> File loaded: application/views/admin/index.php
+DEBUG - 2014-11-04 15:46:23 --> Final output sent to browser
+DEBUG - 2014-11-04 15:46:23 --> Total execution time: 0.0938
+DEBUG - 2014-11-04 15:46:24 --> Config Class Initialized
+DEBUG - 2014-11-04 15:46:24 --> Hooks Class Initialized
+DEBUG - 2014-11-04 15:46:24 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 15:46:24 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 15:46:24 --> URI Class Initialized
+DEBUG - 2014-11-04 15:46:24 --> Router Class Initialized
+ERROR - 2014-11-04 15:46:24 --> 404 Page Not Found --> rujukan/%3C
+DEBUG - 2014-11-04 15:47:27 --> Config Class Initialized
+DEBUG - 2014-11-04 15:47:27 --> Hooks Class Initialized
+DEBUG - 2014-11-04 15:47:27 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 15:47:27 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 15:47:27 --> URI Class Initialized
+DEBUG - 2014-11-04 15:47:27 --> Router Class Initialized
+DEBUG - 2014-11-04 15:47:27 --> Output Class Initialized
+DEBUG - 2014-11-04 15:47:27 --> Security Class Initialized
+DEBUG - 2014-11-04 15:47:27 --> Input Class Initialized
+DEBUG - 2014-11-04 15:47:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-11-04 15:47:27 --> Language Class Initialized
+DEBUG - 2014-11-04 15:47:27 --> Loader Class Initialized
+DEBUG - 2014-11-04 15:47:27 --> Helper loaded: url_helper
+DEBUG - 2014-11-04 15:47:27 --> Helper loaded: file_helper
+DEBUG - 2014-11-04 15:47:27 --> Helper loaded: base_helper
+DEBUG - 2014-11-04 15:47:27 --> Helper loaded: to_excel_helper
+DEBUG - 2014-11-04 15:47:27 --> Helper loaded: form_helper
+DEBUG - 2014-11-04 15:47:27 --> Database Driver Class Initialized
+DEBUG - 2014-11-04 15:47:27 --> Session Class Initialized
+DEBUG - 2014-11-04 15:47:27 --> Helper loaded: string_helper
+DEBUG - 2014-11-04 15:47:27 --> Session routines successfully run
+DEBUG - 2014-11-04 15:47:27 --> Controller Class Initialized
+DEBUG - 2014-11-04 15:47:27 --> Model Class Initialized
+DEBUG - 2014-11-04 15:47:27 --> Model Class Initialized
+DEBUG - 2014-11-04 15:47:27 --> Model Class Initialized
+DEBUG - 2014-11-04 15:47:27 --> Model Class Initialized
+DEBUG - 2014-11-04 15:47:27 --> Model Class Initialized
+DEBUG - 2014-11-04 15:47:27 --> Helper loaded: inflector_helper
+DEBUG - 2014-11-04 15:47:27 --> Form Validation Class Initialized
+DEBUG - 2014-11-04 15:47:27 --> File loaded: application/views/admin/header.php
+DEBUG - 2014-11-04 15:47:27 --> File loaded: application/views/rujukan/model_jawaban_tampil.php
+DEBUG - 2014-11-04 15:47:27 --> File loaded: application/views/admin/footer.php
+DEBUG - 2014-11-04 15:47:27 --> File loaded: application/views/admin/index.php
+DEBUG - 2014-11-04 15:47:27 --> Final output sent to browser
+DEBUG - 2014-11-04 15:47:27 --> Total execution time: 0.0942
+DEBUG - 2014-11-04 15:47:27 --> Config Class Initialized
+DEBUG - 2014-11-04 15:47:27 --> Hooks Class Initialized
+DEBUG - 2014-11-04 15:47:27 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 15:47:27 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 15:47:27 --> URI Class Initialized
+DEBUG - 2014-11-04 15:47:27 --> Router Class Initialized
+DEBUG - 2014-11-04 15:47:27 --> Output Class Initialized
+DEBUG - 2014-11-04 15:47:27 --> Security Class Initialized
+DEBUG - 2014-11-04 15:47:27 --> Input Class Initialized
+DEBUG - 2014-11-04 15:47:32 --> Config Class Initialized
+DEBUG - 2014-11-04 15:47:32 --> Hooks Class Initialized
+DEBUG - 2014-11-04 15:47:32 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 15:47:32 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 15:47:32 --> URI Class Initialized
+DEBUG - 2014-11-04 15:47:32 --> Router Class Initialized
+DEBUG - 2014-11-04 15:47:32 --> Output Class Initialized
+DEBUG - 2014-11-04 15:47:32 --> Security Class Initialized
+DEBUG - 2014-11-04 15:47:32 --> Input Class Initialized
+DEBUG - 2014-11-04 15:47:32 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-11-04 15:47:32 --> Language Class Initialized
+DEBUG - 2014-11-04 15:47:32 --> Loader Class Initialized
+DEBUG - 2014-11-04 15:47:32 --> Helper loaded: url_helper
+DEBUG - 2014-11-04 15:47:32 --> Helper loaded: file_helper
+DEBUG - 2014-11-04 15:47:32 --> Helper loaded: base_helper
+DEBUG - 2014-11-04 15:47:32 --> Helper loaded: to_excel_helper
+DEBUG - 2014-11-04 15:47:32 --> Helper loaded: form_helper
+DEBUG - 2014-11-04 15:47:32 --> Database Driver Class Initialized
+DEBUG - 2014-11-04 15:47:32 --> Session Class Initialized
+DEBUG - 2014-11-04 15:47:32 --> Helper loaded: string_helper
+DEBUG - 2014-11-04 15:47:32 --> Session routines successfully run
+DEBUG - 2014-11-04 15:47:32 --> Controller Class Initialized
+DEBUG - 2014-11-04 15:47:32 --> Model Class Initialized
+DEBUG - 2014-11-04 15:47:32 --> Model Class Initialized
+DEBUG - 2014-11-04 15:47:32 --> Model Class Initialized
+DEBUG - 2014-11-04 15:47:32 --> Model Class Initialized
+DEBUG - 2014-11-04 15:47:32 --> Helper loaded: inflector_helper
+DEBUG - 2014-11-04 15:47:32 --> Form Validation Class Initialized
+DEBUG - 2014-11-04 15:47:32 --> DB Transaction Failure
+ERROR - 2014-11-04 15:47:32 --> Query error: Table 'minerba_kuesioner.alumni' doesn't exist
+DEBUG - 2014-11-04 15:47:32 --> Language file loaded: language/english/db_lang.php
+DEBUG - 2014-11-04 15:59:04 --> Config Class Initialized
+DEBUG - 2014-11-04 15:59:04 --> Hooks Class Initialized
+DEBUG - 2014-11-04 15:59:04 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 15:59:04 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 15:59:04 --> URI Class Initialized
+DEBUG - 2014-11-04 15:59:04 --> Router Class Initialized
+DEBUG - 2014-11-04 15:59:04 --> Output Class Initialized
+DEBUG - 2014-11-04 15:59:04 --> Security Class Initialized
+DEBUG - 2014-11-04 15:59:04 --> Input Class Initialized
+DEBUG - 2014-11-04 15:59:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-11-04 15:59:04 --> Language Class Initialized
+DEBUG - 2014-11-04 15:59:04 --> Loader Class Initialized
+DEBUG - 2014-11-04 15:59:04 --> Helper loaded: url_helper
+DEBUG - 2014-11-04 15:59:04 --> Helper loaded: file_helper
+DEBUG - 2014-11-04 15:59:04 --> Helper loaded: base_helper
+DEBUG - 2014-11-04 15:59:04 --> Helper loaded: to_excel_helper
+DEBUG - 2014-11-04 15:59:04 --> Helper loaded: form_helper
+DEBUG - 2014-11-04 15:59:04 --> Database Driver Class Initialized
+DEBUG - 2014-11-04 15:59:04 --> Session Class Initialized
+DEBUG - 2014-11-04 15:59:04 --> Helper loaded: string_helper
+DEBUG - 2014-11-04 15:59:04 --> Session routines successfully run
+DEBUG - 2014-11-04 15:59:04 --> Controller Class Initialized
+DEBUG - 2014-11-04 15:59:04 --> Model Class Initialized
+DEBUG - 2014-11-04 15:59:04 --> Model Class Initialized
+DEBUG - 2014-11-04 15:59:04 --> Model Class Initialized
+DEBUG - 2014-11-04 15:59:04 --> Model Class Initialized
+DEBUG - 2014-11-04 15:59:04 --> Helper loaded: inflector_helper
+DEBUG - 2014-11-04 15:59:04 --> Form Validation Class Initialized
+DEBUG - 2014-11-04 15:59:04 --> DB Transaction Failure
+ERROR - 2014-11-04 15:59:04 --> Query error: Table 'minerba_kuesioner.alumni' doesn't exist
+DEBUG - 2014-11-04 15:59:04 --> Language file loaded: language/english/db_lang.php
+DEBUG - 2014-11-04 15:59:05 --> Config Class Initialized
+DEBUG - 2014-11-04 15:59:05 --> Hooks Class Initialized
+DEBUG - 2014-11-04 15:59:05 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 15:59:05 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 15:59:05 --> URI Class Initialized
+DEBUG - 2014-11-04 15:59:05 --> Router Class Initialized
+DEBUG - 2014-11-04 15:59:05 --> Output Class Initialized
+DEBUG - 2014-11-04 15:59:05 --> Security Class Initialized
+DEBUG - 2014-11-04 15:59:05 --> Input Class Initialized
+DEBUG - 2014-11-04 15:59:05 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-11-04 15:59:05 --> Language Class Initialized
+DEBUG - 2014-11-04 15:59:05 --> Loader Class Initialized
+DEBUG - 2014-11-04 15:59:05 --> Helper loaded: url_helper
+DEBUG - 2014-11-04 15:59:05 --> Helper loaded: file_helper
+DEBUG - 2014-11-04 15:59:05 --> Helper loaded: base_helper
+DEBUG - 2014-11-04 15:59:05 --> Helper loaded: to_excel_helper
+DEBUG - 2014-11-04 15:59:05 --> Helper loaded: form_helper
+DEBUG - 2014-11-04 15:59:05 --> Database Driver Class Initialized
+DEBUG - 2014-11-04 15:59:06 --> Session Class Initialized
+DEBUG - 2014-11-04 15:59:06 --> Helper loaded: string_helper
+DEBUG - 2014-11-04 15:59:06 --> Session routines successfully run
+DEBUG - 2014-11-04 15:59:06 --> Controller Class Initialized
+DEBUG - 2014-11-04 15:59:06 --> Model Class Initialized
+DEBUG - 2014-11-04 15:59:06 --> Model Class Initialized
+DEBUG - 2014-11-04 15:59:06 --> Model Class Initialized
+DEBUG - 2014-11-04 15:59:06 --> Model Class Initialized
+DEBUG - 2014-11-04 15:59:06 --> Helper loaded: inflector_helper
+DEBUG - 2014-11-04 15:59:06 --> Form Validation Class Initialized
+DEBUG - 2014-11-04 15:59:06 --> DB Transaction Failure
+ERROR - 2014-11-04 15:59:06 --> Query error: Table 'minerba_kuesioner.alumni' doesn't exist
+DEBUG - 2014-11-04 15:59:06 --> Language file loaded: language/english/db_lang.php
+DEBUG - 2014-11-04 15:59:07 --> Config Class Initialized
+DEBUG - 2014-11-04 15:59:07 --> Hooks Class Initialized
+DEBUG - 2014-11-04 15:59:07 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 15:59:07 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 15:59:07 --> URI Class Initialized
+DEBUG - 2014-11-04 15:59:07 --> Router Class Initialized
+DEBUG - 2014-11-04 15:59:07 --> Output Class Initialized
+DEBUG - 2014-11-04 15:59:07 --> Security Class Initialized
+DEBUG - 2014-11-04 15:59:07 --> Input Class Initialized
+DEBUG - 2014-11-04 15:59:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-11-04 15:59:07 --> Language Class Initialized
+DEBUG - 2014-11-04 15:59:07 --> Loader Class Initialized
+DEBUG - 2014-11-04 15:59:07 --> Helper loaded: url_helper
+DEBUG - 2014-11-04 15:59:07 --> Helper loaded: file_helper
+DEBUG - 2014-11-04 15:59:07 --> Helper loaded: base_helper
+DEBUG - 2014-11-04 15:59:07 --> Helper loaded: to_excel_helper
+DEBUG - 2014-11-04 15:59:07 --> Helper loaded: form_helper
+DEBUG - 2014-11-04 15:59:07 --> Database Driver Class Initialized
+DEBUG - 2014-11-04 15:59:07 --> Session Class Initialized
+DEBUG - 2014-11-04 15:59:07 --> Helper loaded: string_helper
+DEBUG - 2014-11-04 15:59:07 --> Session routines successfully run
+DEBUG - 2014-11-04 15:59:07 --> Controller Class Initialized
+DEBUG - 2014-11-04 15:59:07 --> Model Class Initialized
+DEBUG - 2014-11-04 15:59:07 --> Model Class Initialized
+DEBUG - 2014-11-04 15:59:07 --> Model Class Initialized
+DEBUG - 2014-11-04 15:59:07 --> Model Class Initialized
+DEBUG - 2014-11-04 15:59:07 --> Helper loaded: inflector_helper
+DEBUG - 2014-11-04 15:59:07 --> Form Validation Class Initialized
+DEBUG - 2014-11-04 15:59:07 --> DB Transaction Failure
+ERROR - 2014-11-04 15:59:07 --> Query error: Table 'minerba_kuesioner.alumni' doesn't exist
+DEBUG - 2014-11-04 15:59:07 --> Language file loaded: language/english/db_lang.php
+DEBUG - 2014-11-04 16:01:06 --> Config Class Initialized
+DEBUG - 2014-11-04 16:01:06 --> Hooks Class Initialized
+DEBUG - 2014-11-04 16:01:06 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 16:01:06 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 16:01:06 --> URI Class Initialized
+DEBUG - 2014-11-04 16:01:06 --> Router Class Initialized
+DEBUG - 2014-11-04 16:01:06 --> Output Class Initialized
+DEBUG - 2014-11-04 16:01:06 --> Security Class Initialized
+DEBUG - 2014-11-04 16:01:06 --> Input Class Initialized
+DEBUG - 2014-11-04 16:01:06 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-11-04 16:01:06 --> Language Class Initialized
+DEBUG - 2014-11-04 16:01:06 --> Loader Class Initialized
+DEBUG - 2014-11-04 16:01:06 --> Helper loaded: url_helper
+DEBUG - 2014-11-04 16:01:06 --> Helper loaded: file_helper
+DEBUG - 2014-11-04 16:01:06 --> Helper loaded: base_helper
+DEBUG - 2014-11-04 16:01:06 --> Helper loaded: to_excel_helper
+DEBUG - 2014-11-04 16:01:06 --> Helper loaded: form_helper
+DEBUG - 2014-11-04 16:01:06 --> Database Driver Class Initialized
+DEBUG - 2014-11-04 16:01:06 --> Session Class Initialized
+DEBUG - 2014-11-04 16:01:06 --> Helper loaded: string_helper
+DEBUG - 2014-11-04 16:01:06 --> Session routines successfully run
+DEBUG - 2014-11-04 16:01:06 --> Controller Class Initialized
+DEBUG - 2014-11-04 16:01:06 --> Model Class Initialized
+DEBUG - 2014-11-04 16:01:06 --> Model Class Initialized
+DEBUG - 2014-11-04 16:01:06 --> Model Class Initialized
+DEBUG - 2014-11-04 16:01:06 --> Model Class Initialized
+DEBUG - 2014-11-04 16:01:06 --> Helper loaded: inflector_helper
+DEBUG - 2014-11-04 16:01:06 --> Form Validation Class Initialized
+DEBUG - 2014-11-04 16:01:06 --> DB Transaction Failure
+ERROR - 2014-11-04 16:01:06 --> Query error: Table 'minerba_kuesioner.alumni' doesn't exist
+DEBUG - 2014-11-04 16:01:06 --> Language file loaded: language/english/db_lang.php
+DEBUG - 2014-11-04 16:01:07 --> Config Class Initialized
+DEBUG - 2014-11-04 16:01:07 --> Hooks Class Initialized
+DEBUG - 2014-11-04 16:01:07 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 16:01:07 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 16:01:07 --> URI Class Initialized
+DEBUG - 2014-11-04 16:01:07 --> Router Class Initialized
+DEBUG - 2014-11-04 16:01:07 --> Output Class Initialized
+DEBUG - 2014-11-04 16:01:07 --> Security Class Initialized
+DEBUG - 2014-11-04 16:01:07 --> Input Class Initialized
+DEBUG - 2014-11-04 16:01:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-11-04 16:01:07 --> Language Class Initialized
+DEBUG - 2014-11-04 16:01:07 --> Loader Class Initialized
+DEBUG - 2014-11-04 16:01:07 --> Helper loaded: url_helper
+DEBUG - 2014-11-04 16:01:07 --> Helper loaded: file_helper
+DEBUG - 2014-11-04 16:01:07 --> Helper loaded: base_helper
+DEBUG - 2014-11-04 16:01:07 --> Helper loaded: to_excel_helper
+DEBUG - 2014-11-04 16:01:07 --> Helper loaded: form_helper
+DEBUG - 2014-11-04 16:01:07 --> Database Driver Class Initialized
+DEBUG - 2014-11-04 16:01:07 --> Session Class Initialized
+DEBUG - 2014-11-04 16:01:07 --> Helper loaded: string_helper
+DEBUG - 2014-11-04 16:01:07 --> Session routines successfully run
+DEBUG - 2014-11-04 16:01:07 --> Controller Class Initialized
+DEBUG - 2014-11-04 16:01:07 --> Model Class Initialized
+DEBUG - 2014-11-04 16:01:07 --> Model Class Initialized
+DEBUG - 2014-11-04 16:01:07 --> Model Class Initialized
+DEBUG - 2014-11-04 16:01:07 --> Model Class Initialized
+DEBUG - 2014-11-04 16:01:07 --> Helper loaded: inflector_helper
+DEBUG - 2014-11-04 16:01:07 --> Form Validation Class Initialized
+DEBUG - 2014-11-04 16:01:07 --> DB Transaction Failure
+ERROR - 2014-11-04 16:01:07 --> Query error: Table 'minerba_kuesioner.alumni' doesn't exist
+DEBUG - 2014-11-04 16:01:07 --> Language file loaded: language/english/db_lang.php
+DEBUG - 2014-11-04 16:01:08 --> Config Class Initialized
+DEBUG - 2014-11-04 16:01:08 --> Hooks Class Initialized
+DEBUG - 2014-11-04 16:01:08 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 16:01:08 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 16:01:08 --> URI Class Initialized
+DEBUG - 2014-11-04 16:01:08 --> Router Class Initialized
+DEBUG - 2014-11-04 16:01:08 --> Output Class Initialized
+DEBUG - 2014-11-04 16:01:08 --> Security Class Initialized
+DEBUG - 2014-11-04 16:01:08 --> Input Class Initialized
+DEBUG - 2014-11-04 16:01:08 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-11-04 16:01:08 --> Language Class Initialized
+DEBUG - 2014-11-04 16:01:08 --> Loader Class Initialized
+DEBUG - 2014-11-04 16:01:08 --> Helper loaded: url_helper
+DEBUG - 2014-11-04 16:01:08 --> Helper loaded: file_helper
+DEBUG - 2014-11-04 16:01:08 --> Helper loaded: base_helper
+DEBUG - 2014-11-04 16:01:08 --> Helper loaded: to_excel_helper
+DEBUG - 2014-11-04 16:01:08 --> Helper loaded: form_helper
+DEBUG - 2014-11-04 16:01:08 --> Database Driver Class Initialized
+DEBUG - 2014-11-04 16:01:08 --> Session Class Initialized
+DEBUG - 2014-11-04 16:01:08 --> Helper loaded: string_helper
+DEBUG - 2014-11-04 16:01:08 --> Session routines successfully run
+DEBUG - 2014-11-04 16:01:08 --> Controller Class Initialized
+DEBUG - 2014-11-04 16:01:08 --> Model Class Initialized
+DEBUG - 2014-11-04 16:01:08 --> Model Class Initialized
+DEBUG - 2014-11-04 16:01:08 --> Model Class Initialized
+DEBUG - 2014-11-04 16:01:08 --> Model Class Initialized
+DEBUG - 2014-11-04 16:01:08 --> Helper loaded: inflector_helper
+DEBUG - 2014-11-04 16:01:08 --> Form Validation Class Initialized
+DEBUG - 2014-11-04 16:01:08 --> DB Transaction Failure
+ERROR - 2014-11-04 16:01:08 --> Query error: Table 'minerba_kuesioner.alumni' doesn't exist
+DEBUG - 2014-11-04 16:01:08 --> Language file loaded: language/english/db_lang.php
+DEBUG - 2014-11-04 16:01:09 --> Config Class Initialized
+DEBUG - 2014-11-04 16:01:09 --> Hooks Class Initialized
+DEBUG - 2014-11-04 16:01:09 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 16:01:09 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 16:01:09 --> URI Class Initialized
+DEBUG - 2014-11-04 16:01:09 --> Router Class Initialized
+DEBUG - 2014-11-04 16:01:09 --> Output Class Initialized
+DEBUG - 2014-11-04 16:01:09 --> Security Class Initialized
+DEBUG - 2014-11-04 16:01:09 --> Input Class Initialized
+DEBUG - 2014-11-04 16:01:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-11-04 16:01:09 --> Language Class Initialized
+DEBUG - 2014-11-04 16:01:09 --> Loader Class Initialized
+DEBUG - 2014-11-04 16:01:09 --> Helper loaded: url_helper
+DEBUG - 2014-11-04 16:01:09 --> Helper loaded: file_helper
+DEBUG - 2014-11-04 16:01:09 --> Helper loaded: base_helper
+DEBUG - 2014-11-04 16:01:09 --> Helper loaded: to_excel_helper
+DEBUG - 2014-11-04 16:01:09 --> Helper loaded: form_helper
+DEBUG - 2014-11-04 16:01:09 --> Database Driver Class Initialized
+DEBUG - 2014-11-04 16:01:09 --> Session Class Initialized
+DEBUG - 2014-11-04 16:01:09 --> Helper loaded: string_helper
+DEBUG - 2014-11-04 16:01:09 --> Session routines successfully run
+DEBUG - 2014-11-04 16:01:09 --> Controller Class Initialized
+DEBUG - 2014-11-04 16:01:09 --> Model Class Initialized
+DEBUG - 2014-11-04 16:01:09 --> Model Class Initialized
+DEBUG - 2014-11-04 16:01:09 --> Model Class Initialized
+DEBUG - 2014-11-04 16:01:09 --> Model Class Initialized
+DEBUG - 2014-11-04 16:01:09 --> Helper loaded: inflector_helper
+DEBUG - 2014-11-04 16:01:09 --> Form Validation Class Initialized
+DEBUG - 2014-11-04 16:01:09 --> DB Transaction Failure
+ERROR - 2014-11-04 16:01:09 --> Query error: Table 'minerba_kuesioner.alumni' doesn't exist
+DEBUG - 2014-11-04 16:01:09 --> Language file loaded: language/english/db_lang.php
+DEBUG - 2014-11-04 16:01:10 --> Config Class Initialized
+DEBUG - 2014-11-04 16:01:11 --> Hooks Class Initialized
+DEBUG - 2014-11-04 16:01:11 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 16:01:11 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 16:01:11 --> URI Class Initialized
+DEBUG - 2014-11-04 16:01:11 --> Router Class Initialized
+DEBUG - 2014-11-04 16:01:11 --> Output Class Initialized
+DEBUG - 2014-11-04 16:01:11 --> Security Class Initialized
+DEBUG - 2014-11-04 16:01:11 --> Input Class Initialized
+DEBUG - 2014-11-04 16:01:11 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-11-04 16:01:11 --> Language Class Initialized
+DEBUG - 2014-11-04 16:01:11 --> Loader Class Initialized
+DEBUG - 2014-11-04 16:01:11 --> Helper loaded: url_helper
+DEBUG - 2014-11-04 16:01:11 --> Helper loaded: file_helper
+DEBUG - 2014-11-04 16:01:11 --> Helper loaded: base_helper
+DEBUG - 2014-11-04 16:01:11 --> Helper loaded: to_excel_helper
+DEBUG - 2014-11-04 16:01:11 --> Helper loaded: form_helper
+DEBUG - 2014-11-04 16:01:11 --> Database Driver Class Initialized
+DEBUG - 2014-11-04 16:01:11 --> Session Class Initialized
+DEBUG - 2014-11-04 16:01:11 --> Helper loaded: string_helper
+DEBUG - 2014-11-04 16:01:11 --> Session routines successfully run
+DEBUG - 2014-11-04 16:01:11 --> Controller Class Initialized
+DEBUG - 2014-11-04 16:01:11 --> Model Class Initialized
+DEBUG - 2014-11-04 16:01:11 --> Model Class Initialized
+DEBUG - 2014-11-04 16:01:11 --> Model Class Initialized
+DEBUG - 2014-11-04 16:01:11 --> Model Class Initialized
+DEBUG - 2014-11-04 16:01:11 --> Helper loaded: inflector_helper
+DEBUG - 2014-11-04 16:01:11 --> Form Validation Class Initialized
+DEBUG - 2014-11-04 16:01:11 --> DB Transaction Failure
+ERROR - 2014-11-04 16:01:11 --> Query error: Table 'minerba_kuesioner.alumni' doesn't exist
+DEBUG - 2014-11-04 16:01:11 --> Language file loaded: language/english/db_lang.php
+DEBUG - 2014-11-04 16:01:12 --> Config Class Initialized
+DEBUG - 2014-11-04 16:01:12 --> Hooks Class Initialized
+DEBUG - 2014-11-04 16:01:12 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 16:01:12 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 16:01:12 --> URI Class Initialized
+DEBUG - 2014-11-04 16:01:12 --> Router Class Initialized
+DEBUG - 2014-11-04 16:01:12 --> Output Class Initialized
+DEBUG - 2014-11-04 16:01:12 --> Security Class Initialized
+DEBUG - 2014-11-04 16:01:12 --> Input Class Initialized
+DEBUG - 2014-11-04 16:01:12 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-11-04 16:01:12 --> Language Class Initialized
+DEBUG - 2014-11-04 16:01:12 --> Loader Class Initialized
+DEBUG - 2014-11-04 16:01:12 --> Helper loaded: url_helper
+DEBUG - 2014-11-04 16:01:12 --> Helper loaded: file_helper
+DEBUG - 2014-11-04 16:01:12 --> Helper loaded: base_helper
+DEBUG - 2014-11-04 16:01:12 --> Helper loaded: to_excel_helper
+DEBUG - 2014-11-04 16:01:12 --> Helper loaded: form_helper
+DEBUG - 2014-11-04 16:01:12 --> Database Driver Class Initialized
+DEBUG - 2014-11-04 16:01:12 --> Session Class Initialized
+DEBUG - 2014-11-04 16:01:12 --> Helper loaded: string_helper
+DEBUG - 2014-11-04 16:01:12 --> Session routines successfully run
+DEBUG - 2014-11-04 16:01:12 --> Controller Class Initialized
+DEBUG - 2014-11-04 16:01:12 --> Model Class Initialized
+DEBUG - 2014-11-04 16:01:12 --> Model Class Initialized
+DEBUG - 2014-11-04 16:01:12 --> Model Class Initialized
+DEBUG - 2014-11-04 16:01:12 --> Model Class Initialized
+DEBUG - 2014-11-04 16:01:12 --> Helper loaded: inflector_helper
+DEBUG - 2014-11-04 16:01:12 --> Form Validation Class Initialized
+DEBUG - 2014-11-04 16:01:12 --> DB Transaction Failure
+ERROR - 2014-11-04 16:01:12 --> Query error: Table 'minerba_kuesioner.alumni' doesn't exist
+DEBUG - 2014-11-04 16:01:12 --> Language file loaded: language/english/db_lang.php
+DEBUG - 2014-11-04 16:01:13 --> Config Class Initialized
+DEBUG - 2014-11-04 16:01:13 --> Hooks Class Initialized
+DEBUG - 2014-11-04 16:01:13 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 16:01:13 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 16:01:13 --> URI Class Initialized
+DEBUG - 2014-11-04 16:01:13 --> Router Class Initialized
+DEBUG - 2014-11-04 16:01:13 --> Output Class Initialized
+DEBUG - 2014-11-04 16:01:13 --> Security Class Initialized
+DEBUG - 2014-11-04 16:01:13 --> Input Class Initialized
+DEBUG - 2014-11-04 16:01:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-11-04 16:01:13 --> Language Class Initialized
+DEBUG - 2014-11-04 16:01:13 --> Loader Class Initialized
+DEBUG - 2014-11-04 16:01:13 --> Helper loaded: url_helper
+DEBUG - 2014-11-04 16:01:13 --> Helper loaded: file_helper
+DEBUG - 2014-11-04 16:01:13 --> Helper loaded: base_helper
+DEBUG - 2014-11-04 16:01:13 --> Helper loaded: to_excel_helper
+DEBUG - 2014-11-04 16:01:13 --> Helper loaded: form_helper
+DEBUG - 2014-11-04 16:01:13 --> Database Driver Class Initialized
+DEBUG - 2014-11-04 16:01:13 --> Session Class Initialized
+DEBUG - 2014-11-04 16:01:13 --> Helper loaded: string_helper
+DEBUG - 2014-11-04 16:01:13 --> Session routines successfully run
+DEBUG - 2014-11-04 16:01:13 --> Controller Class Initialized
+DEBUG - 2014-11-04 16:01:13 --> Model Class Initialized
+DEBUG - 2014-11-04 16:01:13 --> Model Class Initialized
+DEBUG - 2014-11-04 16:01:13 --> Model Class Initialized
+DEBUG - 2014-11-04 16:01:13 --> Model Class Initialized
+DEBUG - 2014-11-04 16:01:13 --> Helper loaded: inflector_helper
+DEBUG - 2014-11-04 16:01:13 --> Form Validation Class Initialized
+DEBUG - 2014-11-04 16:01:13 --> DB Transaction Failure
+ERROR - 2014-11-04 16:01:13 --> Query error: Table 'minerba_kuesioner.alumni' doesn't exist
+DEBUG - 2014-11-04 16:01:13 --> Language file loaded: language/english/db_lang.php
+DEBUG - 2014-11-04 16:01:14 --> Config Class Initialized
+DEBUG - 2014-11-04 16:01:14 --> Hooks Class Initialized
+DEBUG - 2014-11-04 16:01:14 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 16:01:14 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 16:01:14 --> URI Class Initialized
+DEBUG - 2014-11-04 16:01:14 --> Router Class Initialized
+DEBUG - 2014-11-04 16:01:14 --> Output Class Initialized
+DEBUG - 2014-11-04 16:01:14 --> Security Class Initialized
+DEBUG - 2014-11-04 16:01:14 --> Input Class Initialized
+DEBUG - 2014-11-04 16:01:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-11-04 16:01:14 --> Language Class Initialized
+DEBUG - 2014-11-04 16:01:14 --> Loader Class Initialized
+DEBUG - 2014-11-04 16:01:14 --> Helper loaded: url_helper
+DEBUG - 2014-11-04 16:01:14 --> Helper loaded: file_helper
+DEBUG - 2014-11-04 16:01:14 --> Helper loaded: base_helper
+DEBUG - 2014-11-04 16:01:14 --> Helper loaded: to_excel_helper
+DEBUG - 2014-11-04 16:01:14 --> Helper loaded: form_helper
+DEBUG - 2014-11-04 16:01:14 --> Database Driver Class Initialized
+DEBUG - 2014-11-04 16:01:14 --> Session Class Initialized
+DEBUG - 2014-11-04 16:01:14 --> Helper loaded: string_helper
+DEBUG - 2014-11-04 16:01:14 --> Session routines successfully run
+DEBUG - 2014-11-04 16:01:14 --> Controller Class Initialized
+DEBUG - 2014-11-04 16:01:14 --> Model Class Initialized
+DEBUG - 2014-11-04 16:01:14 --> Model Class Initialized
+DEBUG - 2014-11-04 16:01:14 --> Model Class Initialized
+DEBUG - 2014-11-04 16:01:14 --> Model Class Initialized
+DEBUG - 2014-11-04 16:01:14 --> Helper loaded: inflector_helper
+DEBUG - 2014-11-04 16:01:14 --> Form Validation Class Initialized
+DEBUG - 2014-11-04 16:01:14 --> DB Transaction Failure
+ERROR - 2014-11-04 16:01:14 --> Query error: Table 'minerba_kuesioner.alumni' doesn't exist
+DEBUG - 2014-11-04 16:01:14 --> Language file loaded: language/english/db_lang.php
+DEBUG - 2014-11-04 16:01:16 --> Config Class Initialized
+DEBUG - 2014-11-04 16:01:16 --> Hooks Class Initialized
+DEBUG - 2014-11-04 16:01:16 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 16:01:16 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 16:01:16 --> URI Class Initialized
+DEBUG - 2014-11-04 16:01:16 --> Router Class Initialized
+DEBUG - 2014-11-04 16:01:16 --> Output Class Initialized
+DEBUG - 2014-11-04 16:01:16 --> Security Class Initialized
+DEBUG - 2014-11-04 16:01:16 --> Input Class Initialized
+DEBUG - 2014-11-04 16:01:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-11-04 16:01:16 --> Language Class Initialized
+DEBUG - 2014-11-04 16:01:16 --> Loader Class Initialized
+DEBUG - 2014-11-04 16:01:16 --> Helper loaded: url_helper
+DEBUG - 2014-11-04 16:01:16 --> Helper loaded: file_helper
+DEBUG - 2014-11-04 16:01:16 --> Helper loaded: base_helper
+DEBUG - 2014-11-04 16:01:16 --> Helper loaded: to_excel_helper
+DEBUG - 2014-11-04 16:01:16 --> Helper loaded: form_helper
+DEBUG - 2014-11-04 16:01:16 --> Database Driver Class Initialized
+DEBUG - 2014-11-04 16:01:16 --> Session Class Initialized
+DEBUG - 2014-11-04 16:01:16 --> Helper loaded: string_helper
+DEBUG - 2014-11-04 16:01:16 --> Session routines successfully run
+DEBUG - 2014-11-04 16:01:16 --> Controller Class Initialized
+DEBUG - 2014-11-04 16:01:16 --> Model Class Initialized
+DEBUG - 2014-11-04 16:01:16 --> Model Class Initialized
+DEBUG - 2014-11-04 16:01:16 --> Model Class Initialized
+DEBUG - 2014-11-04 16:01:16 --> Model Class Initialized
+DEBUG - 2014-11-04 16:01:16 --> Helper loaded: inflector_helper
+DEBUG - 2014-11-04 16:01:16 --> Form Validation Class Initialized
+DEBUG - 2014-11-04 16:01:16 --> DB Transaction Failure
+ERROR - 2014-11-04 16:01:16 --> Query error: Table 'minerba_kuesioner.alumni' doesn't exist
+DEBUG - 2014-11-04 16:01:16 --> Language file loaded: language/english/db_lang.php
+DEBUG - 2014-11-04 16:01:17 --> Config Class Initialized
+DEBUG - 2014-11-04 16:01:17 --> Hooks Class Initialized
+DEBUG - 2014-11-04 16:01:17 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 16:01:17 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 16:01:17 --> URI Class Initialized
+DEBUG - 2014-11-04 16:01:17 --> Router Class Initialized
+DEBUG - 2014-11-04 16:01:17 --> Output Class Initialized
+DEBUG - 2014-11-04 16:01:17 --> Security Class Initialized
+DEBUG - 2014-11-04 16:01:17 --> Input Class Initialized
+DEBUG - 2014-11-04 16:01:17 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-11-04 16:01:17 --> Language Class Initialized
+DEBUG - 2014-11-04 16:01:17 --> Loader Class Initialized
+DEBUG - 2014-11-04 16:01:17 --> Helper loaded: url_helper
+DEBUG - 2014-11-04 16:01:17 --> Helper loaded: file_helper
+DEBUG - 2014-11-04 16:01:17 --> Helper loaded: base_helper
+DEBUG - 2014-11-04 16:01:17 --> Helper loaded: to_excel_helper
+DEBUG - 2014-11-04 16:01:17 --> Helper loaded: form_helper
+DEBUG - 2014-11-04 16:01:17 --> Database Driver Class Initialized
+DEBUG - 2014-11-04 16:01:17 --> Session Class Initialized
+DEBUG - 2014-11-04 16:01:17 --> Helper loaded: string_helper
+DEBUG - 2014-11-04 16:01:17 --> Session routines successfully run
+DEBUG - 2014-11-04 16:01:17 --> Controller Class Initialized
+DEBUG - 2014-11-04 16:01:17 --> Model Class Initialized
+DEBUG - 2014-11-04 16:01:17 --> Model Class Initialized
+DEBUG - 2014-11-04 16:01:17 --> Model Class Initialized
+DEBUG - 2014-11-04 16:01:17 --> Model Class Initialized
+DEBUG - 2014-11-04 16:01:17 --> Helper loaded: inflector_helper
+DEBUG - 2014-11-04 16:01:17 --> Form Validation Class Initialized
+DEBUG - 2014-11-04 16:01:17 --> DB Transaction Failure
+ERROR - 2014-11-04 16:01:17 --> Query error: Table 'minerba_kuesioner.alumni' doesn't exist
+DEBUG - 2014-11-04 16:01:17 --> Language file loaded: language/english/db_lang.php
+DEBUG - 2014-11-04 16:02:04 --> Config Class Initialized
+DEBUG - 2014-11-04 16:02:04 --> Hooks Class Initialized
+DEBUG - 2014-11-04 16:02:04 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 16:02:04 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 16:02:04 --> URI Class Initialized
+DEBUG - 2014-11-04 16:02:04 --> Router Class Initialized
+DEBUG - 2014-11-04 16:02:04 --> Output Class Initialized
+DEBUG - 2014-11-04 16:02:04 --> Security Class Initialized
+DEBUG - 2014-11-04 16:02:04 --> Input Class Initialized
+DEBUG - 2014-11-04 16:02:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-11-04 16:02:04 --> Language Class Initialized
+DEBUG - 2014-11-04 16:02:04 --> Loader Class Initialized
+DEBUG - 2014-11-04 16:02:04 --> Helper loaded: url_helper
+DEBUG - 2014-11-04 16:02:04 --> Helper loaded: file_helper
+DEBUG - 2014-11-04 16:02:04 --> Helper loaded: base_helper
+DEBUG - 2014-11-04 16:02:04 --> Helper loaded: to_excel_helper
+DEBUG - 2014-11-04 16:02:04 --> Helper loaded: form_helper
+DEBUG - 2014-11-04 16:02:04 --> Database Driver Class Initialized
+DEBUG - 2014-11-04 16:02:04 --> Session Class Initialized
+DEBUG - 2014-11-04 16:02:04 --> Helper loaded: string_helper
+DEBUG - 2014-11-04 16:02:04 --> Session routines successfully run
+DEBUG - 2014-11-04 16:02:04 --> Controller Class Initialized
+DEBUG - 2014-11-04 16:02:04 --> Model Class Initialized
+DEBUG - 2014-11-04 16:02:04 --> Model Class Initialized
+DEBUG - 2014-11-04 16:02:04 --> Model Class Initialized
+DEBUG - 2014-11-04 16:02:04 --> Model Class Initialized
+DEBUG - 2014-11-04 16:02:04 --> Helper loaded: inflector_helper
+DEBUG - 2014-11-04 16:02:04 --> Form Validation Class Initialized
+DEBUG - 2014-11-04 16:02:04 --> File loaded: application/views/admin/header.php
+DEBUG - 2014-11-04 16:02:04 --> File loaded: application/views/rujukan/alumni_tampil.php
+DEBUG - 2014-11-04 16:02:04 --> File loaded: application/views/admin/footer.php
+DEBUG - 2014-11-04 16:02:04 --> File loaded: application/views/admin/index.php
+DEBUG - 2014-11-04 16:02:04 --> Final output sent to browser
+DEBUG - 2014-11-04 16:02:04 --> Total execution time: 0.1663
+DEBUG - 2014-11-04 16:02:05 --> Config Class Initialized
+DEBUG - 2014-11-04 16:02:05 --> Hooks Class Initialized
+DEBUG - 2014-11-04 16:02:05 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 16:02:05 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 16:02:05 --> URI Class Initialized
+DEBUG - 2014-11-04 16:02:05 --> Router Class Initialized
+DEBUG - 2014-11-04 16:02:05 --> Output Class Initialized
+DEBUG - 2014-11-04 16:02:05 --> Security Class Initialized
+DEBUG - 2014-11-04 16:02:05 --> Input Class Initialized
+DEBUG - 2014-11-04 16:02:13 --> Config Class Initialized
+DEBUG - 2014-11-04 16:02:13 --> Hooks Class Initialized
+DEBUG - 2014-11-04 16:02:13 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 16:02:13 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 16:02:13 --> URI Class Initialized
+DEBUG - 2014-11-04 16:02:13 --> Router Class Initialized
+DEBUG - 2014-11-04 16:02:13 --> Output Class Initialized
+DEBUG - 2014-11-04 16:02:13 --> Security Class Initialized
+DEBUG - 2014-11-04 16:02:13 --> Input Class Initialized
+DEBUG - 2014-11-04 16:02:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-11-04 16:02:13 --> Language Class Initialized
+DEBUG - 2014-11-04 16:02:13 --> Loader Class Initialized
+DEBUG - 2014-11-04 16:02:13 --> Helper loaded: url_helper
+DEBUG - 2014-11-04 16:02:13 --> Helper loaded: file_helper
+DEBUG - 2014-11-04 16:02:13 --> Helper loaded: base_helper
+DEBUG - 2014-11-04 16:02:13 --> Helper loaded: to_excel_helper
+DEBUG - 2014-11-04 16:02:13 --> Helper loaded: form_helper
+DEBUG - 2014-11-04 16:02:13 --> Database Driver Class Initialized
+DEBUG - 2014-11-04 16:02:13 --> Session Class Initialized
+DEBUG - 2014-11-04 16:02:13 --> Helper loaded: string_helper
+DEBUG - 2014-11-04 16:02:13 --> Session routines successfully run
+DEBUG - 2014-11-04 16:02:13 --> Controller Class Initialized
+DEBUG - 2014-11-04 16:02:13 --> Model Class Initialized
+DEBUG - 2014-11-04 16:02:13 --> Model Class Initialized
+DEBUG - 2014-11-04 16:02:13 --> Model Class Initialized
+DEBUG - 2014-11-04 16:02:13 --> Model Class Initialized
+DEBUG - 2014-11-04 16:02:13 --> Model Class Initialized
+DEBUG - 2014-11-04 16:02:13 --> Helper loaded: inflector_helper
+DEBUG - 2014-11-04 16:02:13 --> Form Validation Class Initialized
+DEBUG - 2014-11-04 16:02:13 --> File loaded: application/views/admin/header.php
+DEBUG - 2014-11-04 16:02:13 --> File loaded: application/views/rujukan/model_jawaban_tampil.php
+DEBUG - 2014-11-04 16:02:13 --> File loaded: application/views/admin/footer.php
+DEBUG - 2014-11-04 16:02:13 --> File loaded: application/views/admin/index.php
+DEBUG - 2014-11-04 16:02:13 --> Final output sent to browser
+DEBUG - 2014-11-04 16:02:13 --> Total execution time: 0.1297
+DEBUG - 2014-11-04 16:02:14 --> Config Class Initialized
+DEBUG - 2014-11-04 16:02:14 --> Hooks Class Initialized
+DEBUG - 2014-11-04 16:02:14 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 16:02:14 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 16:02:14 --> URI Class Initialized
+DEBUG - 2014-11-04 16:02:14 --> Router Class Initialized
+DEBUG - 2014-11-04 16:02:14 --> Output Class Initialized
+DEBUG - 2014-11-04 16:02:14 --> Security Class Initialized
+DEBUG - 2014-11-04 16:02:14 --> Input Class Initialized
+DEBUG - 2014-11-04 16:02:47 --> Config Class Initialized
+DEBUG - 2014-11-04 16:02:47 --> Hooks Class Initialized
+DEBUG - 2014-11-04 16:02:47 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 16:02:47 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 16:02:47 --> URI Class Initialized
+DEBUG - 2014-11-04 16:02:47 --> Router Class Initialized
+DEBUG - 2014-11-04 16:02:47 --> Output Class Initialized
+DEBUG - 2014-11-04 16:02:47 --> Security Class Initialized
+DEBUG - 2014-11-04 16:02:47 --> Input Class Initialized
+DEBUG - 2014-11-04 16:02:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-11-04 16:02:47 --> Language Class Initialized
+DEBUG - 2014-11-04 16:02:47 --> Loader Class Initialized
+DEBUG - 2014-11-04 16:02:47 --> Helper loaded: url_helper
+DEBUG - 2014-11-04 16:02:47 --> Helper loaded: file_helper
+DEBUG - 2014-11-04 16:02:47 --> Helper loaded: base_helper
+DEBUG - 2014-11-04 16:02:47 --> Helper loaded: to_excel_helper
+DEBUG - 2014-11-04 16:02:47 --> Helper loaded: form_helper
+DEBUG - 2014-11-04 16:02:47 --> Database Driver Class Initialized
+DEBUG - 2014-11-04 16:02:47 --> Session Class Initialized
+DEBUG - 2014-11-04 16:02:47 --> Helper loaded: string_helper
+DEBUG - 2014-11-04 16:02:47 --> Session routines successfully run
+DEBUG - 2014-11-04 16:02:47 --> Controller Class Initialized
+DEBUG - 2014-11-04 16:02:47 --> Model Class Initialized
+DEBUG - 2014-11-04 16:02:47 --> Model Class Initialized
+DEBUG - 2014-11-04 16:02:47 --> Model Class Initialized
+DEBUG - 2014-11-04 16:02:47 --> Model Class Initialized
+DEBUG - 2014-11-04 16:02:47 --> Helper loaded: inflector_helper
+DEBUG - 2014-11-04 16:02:47 --> Form Validation Class Initialized
+DEBUG - 2014-11-04 16:02:47 --> File loaded: application/views/admin/header.php
+DEBUG - 2014-11-04 16:02:47 --> File loaded: application/views/rujukan/alumni_tambah.php
+DEBUG - 2014-11-04 16:02:47 --> File loaded: application/views/admin/footer.php
+DEBUG - 2014-11-04 16:02:47 --> File loaded: application/views/admin/index.php
+DEBUG - 2014-11-04 16:02:47 --> Final output sent to browser
+DEBUG - 2014-11-04 16:02:47 --> Total execution time: 0.1014
+DEBUG - 2014-11-04 16:02:47 --> Config Class Initialized
+DEBUG - 2014-11-04 16:02:47 --> Hooks Class Initialized
+DEBUG - 2014-11-04 16:02:47 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 16:02:47 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 16:02:47 --> URI Class Initialized
+DEBUG - 2014-11-04 16:02:47 --> Router Class Initialized
+ERROR - 2014-11-04 16:02:47 --> 404 Page Not Found --> rujukan/%3C
+DEBUG - 2014-11-04 16:02:47 --> Config Class Initialized
+DEBUG - 2014-11-04 16:02:47 --> Hooks Class Initialized
+DEBUG - 2014-11-04 16:02:47 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 16:02:47 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 16:02:47 --> URI Class Initialized
+DEBUG - 2014-11-04 16:02:47 --> Router Class Initialized
+ERROR - 2014-11-04 16:02:47 --> 404 Page Not Found --> rujukan/images
+DEBUG - 2014-11-04 16:03:29 --> Config Class Initialized
+DEBUG - 2014-11-04 16:03:29 --> Hooks Class Initialized
+DEBUG - 2014-11-04 16:03:29 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 16:03:29 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 16:03:29 --> URI Class Initialized
+DEBUG - 2014-11-04 16:03:29 --> Router Class Initialized
+DEBUG - 2014-11-04 16:03:29 --> Output Class Initialized
+DEBUG - 2014-11-04 16:03:29 --> Security Class Initialized
+DEBUG - 2014-11-04 16:03:29 --> Input Class Initialized
+DEBUG - 2014-11-04 16:03:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-11-04 16:03:29 --> Language Class Initialized
+DEBUG - 2014-11-04 16:03:29 --> Loader Class Initialized
+DEBUG - 2014-11-04 16:03:29 --> Helper loaded: url_helper
+DEBUG - 2014-11-04 16:03:29 --> Helper loaded: file_helper
+DEBUG - 2014-11-04 16:03:29 --> Helper loaded: base_helper
+DEBUG - 2014-11-04 16:03:29 --> Helper loaded: to_excel_helper
+DEBUG - 2014-11-04 16:03:29 --> Helper loaded: form_helper
+DEBUG - 2014-11-04 16:03:29 --> Database Driver Class Initialized
+DEBUG - 2014-11-04 16:03:29 --> Session Class Initialized
+DEBUG - 2014-11-04 16:03:29 --> Helper loaded: string_helper
+DEBUG - 2014-11-04 16:03:29 --> Session routines successfully run
+DEBUG - 2014-11-04 16:03:29 --> Controller Class Initialized
+DEBUG - 2014-11-04 16:03:29 --> Model Class Initialized
+DEBUG - 2014-11-04 16:03:29 --> Model Class Initialized
+DEBUG - 2014-11-04 16:03:29 --> Model Class Initialized
+DEBUG - 2014-11-04 16:03:29 --> Model Class Initialized
+DEBUG - 2014-11-04 16:03:29 --> Helper loaded: inflector_helper
+DEBUG - 2014-11-04 16:03:29 --> Form Validation Class Initialized
+ERROR - 2014-11-04 16:03:29 --> Severity: Notice  --> Undefined index: fileexcel C:\xampp\htdocs\m1n3rb4-qu3s10n3r\minerba-kuesioner\application\controllers\rujukan\alumni.php 260
+ERROR - 2014-11-04 16:03:29 --> Severity: Notice  --> Undefined offset: 0 C:\xampp\htdocs\m1n3rb4-qu3s10n3r\minerba-kuesioner\application\libraries\excel_reader2.php 390
+DEBUG - 2014-11-04 16:03:29 --> Final output sent to browser
+DEBUG - 2014-11-04 16:03:29 --> Total execution time: 0.1754
+DEBUG - 2014-11-04 16:06:49 --> Config Class Initialized
+DEBUG - 2014-11-04 16:06:49 --> Hooks Class Initialized
+DEBUG - 2014-11-04 16:06:49 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 16:06:49 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 16:06:49 --> URI Class Initialized
+DEBUG - 2014-11-04 16:06:49 --> Router Class Initialized
+DEBUG - 2014-11-04 16:06:49 --> Output Class Initialized
+DEBUG - 2014-11-04 16:06:49 --> Security Class Initialized
+DEBUG - 2014-11-04 16:06:49 --> Input Class Initialized
+DEBUG - 2014-11-04 16:06:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-11-04 16:06:49 --> Language Class Initialized
+DEBUG - 2014-11-04 16:06:49 --> Loader Class Initialized
+DEBUG - 2014-11-04 16:06:49 --> Helper loaded: url_helper
+DEBUG - 2014-11-04 16:06:49 --> Helper loaded: file_helper
+DEBUG - 2014-11-04 16:06:49 --> Helper loaded: base_helper
+DEBUG - 2014-11-04 16:06:49 --> Helper loaded: to_excel_helper
+DEBUG - 2014-11-04 16:06:49 --> Helper loaded: form_helper
+DEBUG - 2014-11-04 16:06:49 --> Database Driver Class Initialized
+DEBUG - 2014-11-04 16:06:49 --> Session Class Initialized
+DEBUG - 2014-11-04 16:06:49 --> Helper loaded: string_helper
+DEBUG - 2014-11-04 16:06:49 --> Session routines successfully run
+DEBUG - 2014-11-04 16:06:49 --> Controller Class Initialized
+DEBUG - 2014-11-04 16:06:49 --> Model Class Initialized
+DEBUG - 2014-11-04 16:06:49 --> Model Class Initialized
+DEBUG - 2014-11-04 16:06:49 --> Model Class Initialized
+DEBUG - 2014-11-04 16:06:49 --> Model Class Initialized
+DEBUG - 2014-11-04 16:06:49 --> Helper loaded: inflector_helper
+DEBUG - 2014-11-04 16:06:49 --> Form Validation Class Initialized
+ERROR - 2014-11-04 16:06:49 --> Non-existent class: Excel_reader2
+DEBUG - 2014-11-04 16:08:50 --> Config Class Initialized
+DEBUG - 2014-11-04 16:08:50 --> Hooks Class Initialized
+DEBUG - 2014-11-04 16:08:50 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 16:08:50 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 16:08:50 --> URI Class Initialized
+DEBUG - 2014-11-04 16:08:50 --> Router Class Initialized
+DEBUG - 2014-11-04 16:08:50 --> Output Class Initialized
+DEBUG - 2014-11-04 16:08:50 --> Security Class Initialized
+DEBUG - 2014-11-04 16:08:50 --> Input Class Initialized
+DEBUG - 2014-11-04 16:08:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-11-04 16:08:50 --> Language Class Initialized
+DEBUG - 2014-11-04 16:08:50 --> Loader Class Initialized
+DEBUG - 2014-11-04 16:08:50 --> Helper loaded: url_helper
+DEBUG - 2014-11-04 16:08:50 --> Helper loaded: file_helper
+DEBUG - 2014-11-04 16:08:50 --> Helper loaded: base_helper
+DEBUG - 2014-11-04 16:08:50 --> Helper loaded: to_excel_helper
+DEBUG - 2014-11-04 16:08:50 --> Helper loaded: form_helper
+DEBUG - 2014-11-04 16:08:50 --> Database Driver Class Initialized
+DEBUG - 2014-11-04 16:08:50 --> Session Class Initialized
+DEBUG - 2014-11-04 16:08:50 --> Helper loaded: string_helper
+DEBUG - 2014-11-04 16:08:50 --> Session routines successfully run
+DEBUG - 2014-11-04 16:08:50 --> Controller Class Initialized
+DEBUG - 2014-11-04 16:08:50 --> Model Class Initialized
+DEBUG - 2014-11-04 16:08:50 --> Model Class Initialized
+DEBUG - 2014-11-04 16:08:50 --> Model Class Initialized
+DEBUG - 2014-11-04 16:08:50 --> Model Class Initialized
+DEBUG - 2014-11-04 16:08:50 --> Helper loaded: inflector_helper
+DEBUG - 2014-11-04 16:08:50 --> Form Validation Class Initialized
+ERROR - 2014-11-04 16:08:50 --> Severity: Notice  --> Undefined index: fileexcel C:\xampp\htdocs\m1n3rb4-qu3s10n3r\minerba-kuesioner\application\controllers\rujukan\alumni.php 260
+ERROR - 2014-11-04 16:08:50 --> Severity: Notice  --> Undefined offset: 0 C:\xampp\htdocs\m1n3rb4-qu3s10n3r\minerba-kuesioner\application\libraries\excel_reader2.php 390
+DEBUG - 2014-11-04 16:08:50 --> Final output sent to browser
+DEBUG - 2014-11-04 16:08:50 --> Total execution time: 0.0935
+DEBUG - 2014-11-04 16:16:10 --> Config Class Initialized
+DEBUG - 2014-11-04 16:16:10 --> Hooks Class Initialized
+DEBUG - 2014-11-04 16:16:10 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 16:16:10 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 16:16:10 --> URI Class Initialized
+DEBUG - 2014-11-04 16:16:10 --> Router Class Initialized
+DEBUG - 2014-11-04 16:16:10 --> Output Class Initialized
+DEBUG - 2014-11-04 16:16:10 --> Security Class Initialized
+DEBUG - 2014-11-04 16:16:10 --> Input Class Initialized
+DEBUG - 2014-11-04 16:16:10 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-11-04 16:16:10 --> Language Class Initialized
+DEBUG - 2014-11-04 16:16:10 --> Loader Class Initialized
+DEBUG - 2014-11-04 16:16:10 --> Helper loaded: url_helper
+DEBUG - 2014-11-04 16:16:10 --> Helper loaded: file_helper
+DEBUG - 2014-11-04 16:16:10 --> Helper loaded: base_helper
+DEBUG - 2014-11-04 16:16:10 --> Helper loaded: to_excel_helper
+DEBUG - 2014-11-04 16:16:10 --> Helper loaded: form_helper
+DEBUG - 2014-11-04 16:16:10 --> Database Driver Class Initialized
+DEBUG - 2014-11-04 16:16:10 --> Session Class Initialized
+DEBUG - 2014-11-04 16:16:10 --> Helper loaded: string_helper
+DEBUG - 2014-11-04 16:16:10 --> Session routines successfully run
+DEBUG - 2014-11-04 16:16:10 --> Controller Class Initialized
+DEBUG - 2014-11-04 16:16:10 --> Model Class Initialized
+DEBUG - 2014-11-04 16:16:10 --> Model Class Initialized
+DEBUG - 2014-11-04 16:16:10 --> Model Class Initialized
+DEBUG - 2014-11-04 16:16:10 --> Model Class Initialized
+DEBUG - 2014-11-04 16:16:10 --> Helper loaded: inflector_helper
+DEBUG - 2014-11-04 16:16:10 --> Form Validation Class Initialized
+ERROR - 2014-11-04 16:16:10 --> Severity: Notice  --> Undefined index: fileexcel C:\xampp\htdocs\m1n3rb4-qu3s10n3r\minerba-kuesioner\application\controllers\rujukan\alumni.php 260
+ERROR - 2014-11-04 16:16:10 --> Severity: Notice  --> Undefined offset: 0 C:\xampp\htdocs\m1n3rb4-qu3s10n3r\minerba-kuesioner\application\libraries\excel_reader2.php 390
+DEBUG - 2014-11-04 16:16:10 --> Final output sent to browser
+DEBUG - 2014-11-04 16:16:10 --> Total execution time: 0.1150
+DEBUG - 2014-11-04 16:16:16 --> Config Class Initialized
+DEBUG - 2014-11-04 16:16:16 --> Hooks Class Initialized
+DEBUG - 2014-11-04 16:16:16 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 16:16:16 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 16:16:16 --> URI Class Initialized
+DEBUG - 2014-11-04 16:16:16 --> Router Class Initialized
+DEBUG - 2014-11-04 16:16:16 --> Output Class Initialized
+DEBUG - 2014-11-04 16:16:16 --> Security Class Initialized
+DEBUG - 2014-11-04 16:16:16 --> Input Class Initialized
+DEBUG - 2014-11-04 16:16:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-11-04 16:16:16 --> Language Class Initialized
+DEBUG - 2014-11-04 16:16:16 --> Loader Class Initialized
+DEBUG - 2014-11-04 16:16:16 --> Helper loaded: url_helper
+DEBUG - 2014-11-04 16:16:16 --> Helper loaded: file_helper
+DEBUG - 2014-11-04 16:16:16 --> Helper loaded: base_helper
+DEBUG - 2014-11-04 16:16:16 --> Helper loaded: to_excel_helper
+DEBUG - 2014-11-04 16:16:16 --> Helper loaded: form_helper
+DEBUG - 2014-11-04 16:16:16 --> Database Driver Class Initialized
+DEBUG - 2014-11-04 16:16:16 --> Session Class Initialized
+DEBUG - 2014-11-04 16:16:16 --> Helper loaded: string_helper
+DEBUG - 2014-11-04 16:16:16 --> Session routines successfully run
+DEBUG - 2014-11-04 16:16:16 --> Controller Class Initialized
+DEBUG - 2014-11-04 16:16:16 --> Model Class Initialized
+DEBUG - 2014-11-04 16:16:16 --> Model Class Initialized
+DEBUG - 2014-11-04 16:16:16 --> Model Class Initialized
+DEBUG - 2014-11-04 16:16:16 --> Model Class Initialized
+DEBUG - 2014-11-04 16:16:16 --> Helper loaded: inflector_helper
+DEBUG - 2014-11-04 16:16:16 --> Form Validation Class Initialized
+DEBUG - 2014-11-04 16:16:16 --> File loaded: application/views/admin/header.php
+DEBUG - 2014-11-04 16:16:16 --> File loaded: application/views/rujukan/alumni_tambah.php
+DEBUG - 2014-11-04 16:16:16 --> File loaded: application/views/admin/footer.php
+DEBUG - 2014-11-04 16:16:16 --> File loaded: application/views/admin/index.php
+DEBUG - 2014-11-04 16:16:16 --> Final output sent to browser
+DEBUG - 2014-11-04 16:16:16 --> Total execution time: 0.0858
+DEBUG - 2014-11-04 16:16:16 --> Config Class Initialized
+DEBUG - 2014-11-04 16:16:16 --> Hooks Class Initialized
+DEBUG - 2014-11-04 16:16:16 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 16:16:16 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 16:16:16 --> URI Class Initialized
+DEBUG - 2014-11-04 16:16:16 --> Router Class Initialized
+ERROR - 2014-11-04 16:16:16 --> 404 Page Not Found --> rujukan/%3C
+DEBUG - 2014-11-04 16:16:16 --> Config Class Initialized
+DEBUG - 2014-11-04 16:16:16 --> Hooks Class Initialized
+DEBUG - 2014-11-04 16:16:16 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 16:16:16 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 16:16:16 --> URI Class Initialized
+DEBUG - 2014-11-04 16:16:16 --> Router Class Initialized
+ERROR - 2014-11-04 16:16:16 --> 404 Page Not Found --> rujukan/images
+DEBUG - 2014-11-04 16:16:22 --> Config Class Initialized
+DEBUG - 2014-11-04 16:16:22 --> Hooks Class Initialized
+DEBUG - 2014-11-04 16:16:22 --> Utf8 Class Initialized
+DEBUG - 2014-11-04 16:16:22 --> UTF-8 Support Enabled
+DEBUG - 2014-11-04 16:16:22 --> URI Class Initialized
+DEBUG - 2014-11-04 16:16:22 --> Router Class Initialized
+DEBUG - 2014-11-04 16:16:22 --> Output Class Initialized
+DEBUG - 2014-11-04 16:16:22 --> Security Class Initialized
+DEBUG - 2014-11-04 16:16:22 --> Input Class Initialized
+DEBUG - 2014-11-04 16:16:22 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-11-04 16:16:22 --> Language Class Initialized
+DEBUG - 2014-11-04 16:16:22 --> Loader Class Initialized
+DEBUG - 2014-11-04 16:16:22 --> Helper loaded: url_helper
+DEBUG - 2014-11-04 16:16:22 --> Helper loaded: file_helper
+DEBUG - 2014-11-04 16:16:22 --> Helper loaded: base_helper
+DEBUG - 2014-11-04 16:16:22 --> Helper loaded: to_excel_helper
+DEBUG - 2014-11-04 16:16:22 --> Helper loaded: form_helper
+DEBUG - 2014-11-04 16:16:22 --> Database Driver Class Initialized
+DEBUG - 2014-11-04 16:16:22 --> Session Class Initialized
+DEBUG - 2014-11-04 16:16:22 --> Helper loaded: string_helper
+DEBUG - 2014-11-04 16:16:22 --> Session routines successfully run
+DEBUG - 2014-11-04 16:16:22 --> Controller Class Initialized
+DEBUG - 2014-11-04 16:16:22 --> Model Class Initialized
+DEBUG - 2014-11-04 16:16:22 --> Model Class Initialized
+DEBUG - 2014-11-04 16:16:22 --> Model Class Initialized
+DEBUG - 2014-11-04 16:16:22 --> Model Class Initialized
+DEBUG - 2014-11-04 16:16:22 --> Helper loaded: inflector_helper
+DEBUG - 2014-11-04 16:16:22 --> Form Validation Class Initialized
+DEBUG - 2014-11-04 16:16:23 --> Final output sent to browser
+DEBUG - 2014-11-04 16:16:23 --> Total execution time: 0.6539

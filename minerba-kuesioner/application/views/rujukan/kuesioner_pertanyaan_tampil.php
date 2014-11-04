@@ -1,6 +1,6 @@
 
 <div class="widget">
-            <div class="header"><span><span class="ico  gray random"></span> Form model jawaban </span></div>
+            <div class="header"><span><span class="ico  gray random"></span> Form alumni </span></div>
             <div class="content">
 
                     <form /> 

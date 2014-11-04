@@ -15,12 +15,11 @@ body {
 	border: none;
 	color: #393939;
 	height: 25px;
- 
 	padding: 6px 6px 0 6px;
 	width: 186px;
 	}
 #submit	{
-	background: url(images/form_submit.gif) no-repeat;
+	background: url(images/form_submit.png) no-repeat;
 	border: none;
 	cursor: pointer;
 	height: 30px;

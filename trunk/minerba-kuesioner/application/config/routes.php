@@ -38,7 +38,8 @@
 |
 */
 
-$route['default_controller'] = "rujukan/alumni";//"welcome";
+//$route['default_controller'] = "rujukan/alumni";//"welcome";
+$route['default_controller'] = "transaksi/konsultasi";//"welcome";
 $route['404_override'] = '';
 
 

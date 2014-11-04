@@ -115,7 +115,7 @@
             
            
                 <form method="post" enctype="multipart/form-data" action="<?php echo base_url(); ?>rujukan/alumni/import">
-                    <div> <label> Pilih File Excel* : </label> <input type="file" class="fileupload" />
+                    <div> <label> Pilih File Excel* : </label> <input type="file" class="fileupload" name="fileexcel"/>
                     <span class="f_help">* file yang bisa di import adalah .xls (Excel 2003-2007) . 
                     Download template excel : <a href="<?php echo base_url(); ?>temp_upload/alumni.xls" class="red" title="Download template excel alumni"> alumni.xls </a>
                     <img src="<?php echo base_url(); ?>public/admin/images/icon/link.png" alt="link" /></span>

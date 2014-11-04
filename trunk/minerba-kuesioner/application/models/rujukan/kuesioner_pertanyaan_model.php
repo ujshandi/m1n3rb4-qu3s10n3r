@@ -3,7 +3,7 @@
  *INVISI
 */
 
-class Model_jawaban_model extends CI_Model
+class Kuesioner_pertanyaan_model extends CI_Model
 {	
 	/**
 	* constructor
@@ -372,11 +372,6 @@ class Model_jawaban_model extends CI_Model
 
 
     function tampildata()
-    {       
-        return $this->db->query("select * from model_jawaban order by model_id");    
-    }
-
-    function tampil_id()
     {       
         return $this->db->query("select * from model_jawaban");    
     }

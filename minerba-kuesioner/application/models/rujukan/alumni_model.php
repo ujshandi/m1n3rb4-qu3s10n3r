@@ -402,6 +402,11 @@ class Alumni_model extends CI_Model
                 '".$riwayat_jabatan."',
                 '".$riwayat_diklat_minerba."')");   
     }
+
+    function simpan_upload($nik,$nama)
+    {       
+        return $this->db->query("insert into alumni (alumni_id,nik,nama) values('NULL','".$nik."','".$nama."')");   
+    }
 	
     function hapus($alumni_id)
     {

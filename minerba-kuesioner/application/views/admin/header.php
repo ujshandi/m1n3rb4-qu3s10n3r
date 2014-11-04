@@ -29,7 +29,7 @@
         <script type="text/javascript" src="<?php echo base_url(); ?>public/admin/components/datatables/dataTables.min.js"></script>
         <script type="text/javascript" src="<?php echo base_url(); ?>public/admin/components/datatables/ColVis.js"></script>
         <script type="text/javascript" src="<?php echo base_url(); ?>public/admin/components/scrolltop/scrolltopcontrol.js"></script>
-        <script type="text/javascript" src="<?php echo base_url(); ?>public/admin/components/fancybox/jquery.fancybox.js"></script>
+        
         <script type="text/javascript" src="<?php echo base_url(); ?>public/admin/components/jscrollpane/mousewheel.js"></script>
         <script type="text/javascript" src="<?php echo base_url(); ?>public/admin/components/jscrollpane/mwheelIntent.js"></script>
         <script type="text/javascript" src="<?php echo base_url(); ?>public/admin/components/jscrollpane/jscrollpane.min.js"></script>
@@ -53,17 +53,64 @@
         <script type="text/javascript" src="<?php echo base_url(); ?>public/admin/components/effect/jquery-jrumble.js"></script>
         <script type="text/javascript" src="<?php echo base_url(); ?>public/admin/components/filestyle/jquery.filestyle.js"></script>
         <script type="text/javascript" src="<?php echo base_url(); ?>public/admin/components/placeholder/jquery.placeholder.js"></script>
-    <script type="text/javascript" src="<?php echo base_url(); ?>public/admin/components/Jcrop/jquery.Jcrop.js"></script>
+        <script type="text/javascript" src="<?php echo base_url(); ?>public/admin/components/Jcrop/jquery.Jcrop.js"></script>
         <script type="text/javascript" src="<?php echo base_url(); ?>public/admin/components/imgTransform/jquery.transform.js"></script>
         <script type="text/javascript" src="<?php echo base_url(); ?>public/admin/components/webcam/webcam.js"></script>
-    <script type="text/javascript" src="<?php echo base_url(); ?>public/admin/components/rating_star/rating_star.js"></script>
-    <script type="text/javascript" src="<?php echo base_url(); ?>public/admin/components/dualListBox/dualListBox.js"></script>
-    <script type="text/javascript" src="<?php echo base_url(); ?>public/admin/components/smartWizard/jquery.smartWizard.min.js"></script>
-    <script type="text/javascript" src="<?php echo base_url(); ?>public/admin/components/maskedinput/jquery.maskedinput.js"></script>
+        <script type="text/javascript" src="<?php echo base_url(); ?>public/admin/components/rating_star/rating_star.js"></script>
+        <script type="text/javascript" src="<?php echo base_url(); ?>public/admin/components/dualListBox/dualListBox.js"></script>
+        <script type="text/javascript" src="<?php echo base_url(); ?>public/admin/components/smartWizard/jquery.smartWizard.min.js"></script>
+        <script type="text/javascript" src="<?php echo base_url(); ?>public/admin/components/maskedinput/jquery.maskedinput.js"></script>
         <script type="text/javascript" src="<?php echo base_url(); ?>public/admin/components/highlightText/highlightText.js"></script>
-    <script type="text/javascript" src="<?php echo base_url(); ?>public/admin/components/elastic/jquery.elastic.source.js"></script>
+        <script type="text/javascript" src="<?php echo base_url(); ?>public/admin/components/elastic/jquery.elastic.source.js"></script>
         <script type="text/javascript" src="<?php echo base_url(); ?>public/admin/js/jquery.cookie.js"></script>
         <script type="text/javascript" src="<?php echo base_url(); ?>public/admin/js/zice.custom.js"></script>
+        <script type="text/javascript" src="<?php echo base_url(); ?>public/admin/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+        <link href="<?php echo base_url(); ?>public/admin/fancybox/jquery.fancybox-1.3.4.css" type="text/css" rel="stylesheet"/>
+ 
+      <script type="text/javascript">
+    
+      $(document).ready(function() {
+        $('#delete_row').live('click', function(){
+        if(confirm("Yakin akan menghapus data ini?")){
+        document.location=$(this).attr('href');
+        row.slideUp(function(){   showSuccess('Data Berhasil Dihapus',10000); unloading(); }); return false;
+        }
+        return false;
+      });
+      } );
+
+      /*function Delete(data,name,row,type,dataSet){
+        var loadpage = dataSet.hdata(0);
+        var url = dataSet.hdata(1);
+        var table = dataSet.hdata(2);
+        var data = data+"&tabel="+table;
+    $.confirm({
+    'title': '_DELETE DIALOG BOX','message': " <strong>Yakin akan menghapus file ini? </strong><br /><font color=red>' "+ name +" ' </font> ",'buttons': {'Yes': {'class': 'special',
+    'action': function(){
+          loading('Checking');
+                   document.location=$(this).attr('href');
+                   if(type==0){ row.slideUp(function(){   showSuccess('Data Berhasil Dihapus',10000); unloading(); }); return false;}
+                    if(type==1){ row.slideUp(function(){   showSuccess('Data Berhasil Dihapus',10000); unloading(); }); return false;}
+                    setTimeout("unloading();",900);      
+             }},'No'  : {'class'  : ''}}});}*/
+    
+   
+    $(document).ready(function()
+      {
+      $(".fancy").fancybox();
+      });
+
+    $(document).ready(function(){
+      $("#model_jawaban").validationEngine();
+
+      $('#alertMessage').removeClass('error')
+        .html('Simpan Sukses').stop(true,true).fadeIn()
+        .delay(3000).fadeOut(); return false;
+      });
+
+
+      
+    </script>
     
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>        
         <body class="dashborad">        
@@ -99,6 +146,12 @@
                           <ul>
                           <li><a href="<?php echo base_url(); ?>rujukan/alumni"> Input Data</a></li>
                           <li><a href="<?php echo base_url(); ?>rujukan/alumni/tampil"> Lihat Data</a></li>
+                        </ul>
+                      </li>
+                      <li class="limenu"><a href="#"><span class="ico gray  shadow paragraph_align_left"></span><b>Model Jawaban</b></a>
+                          <ul>
+                          <li><a href="<?php echo base_url(); ?>rujukan/model_jawaban"> Input Data</a></li>
+                          <li><a href="<?php echo base_url(); ?>rujukan/model_jawaban/tampil"> Lihat Data</a></li>
                         </ul>
                       </li>
                     </ul>

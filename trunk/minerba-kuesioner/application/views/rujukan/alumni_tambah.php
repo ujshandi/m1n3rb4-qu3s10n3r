@@ -1,7 +1,5 @@
  <div class="widget">
-                <div class="header"><span><span class="ico gray window"></span>  Form Alumni  </span></div> 
-                    <div class="content">
-                        <div class="boxtitle"><span class="ico gray audio_knob"></span> Form input data alumni  <span class="netip"></span></div>
+    <div class="header"><span><span class="ico gray window"></span>  Form Alumni  </span></div> 
               
                         <!-- <form id="demo" /> 
                             <div class="section">                               
@@ -112,18 +110,76 @@
                             </div>
                             
                         </form> -->
-            
-           
-                <form method="post" enctype="multipart/form-data" action="<?php echo base_url(); ?>rujukan/alumni/import">
-                    <div> <label> Pilih File Excel* : </label> <input type="file" class="fileupload" name="fileexcel"/>
-                    <span class="f_help">* file yang bisa di import adalah .xls (Excel 2003-2007) . 
-                    Download template excel : <a href="<?php echo base_url(); ?>temp_upload/alumni.xls" class="red" title="Download template excel alumni"> alumni.xls </a>
-                    <img src="<?php echo base_url(); ?>public/admin/images/icon/link.png" alt="link" /></span>
-                    </div>
-                    </br>
-                    <input type="submit" value="Import" class="uibutton loading" title="Import" rel="1">
-                </form>
-                
-               
-                    </div>
+<?php if($ket == 'tambah') { ?>            
+<div class="content">
+<div class="boxtitle"><span class="ico gray audio_knob"></span> Import data alumni  <span class="netip"></span></div>         
+<form method="post" enctype="multipart/form-data" action="<?php echo base_url(); ?>rujukan/alumni/import">
+    <div> <label> Pilih File Excel* : </label> <input type="file" class="fileupload" name="fileexcel"/>
+    <span class="f_help">* file yang bisa di import adalah .xls (Excel 2003-2007) . 
+    Download template excel : <a href="<?php echo base_url(); ?>temp_upload/alumni.xls" class="red" title="Download template excel alumni"> alumni.xls </a>
+    <img src="<?php echo base_url(); ?>public/admin/images/icon/link.png" alt="link" /></span>
+    </div>
+    </br>
+    <input type="submit" value="Import" class="uibutton loading" title="Import" rel="1">
+</form>
+</div>
+
+<div class="content">  
+<div class="boxtitle"><span class="ico gray audio_knob"></span> Form input data alumni  <span class="netip"></span></div>
+<form action="<?php echo base_url(); ?>rujukan/alumni/simpan" method="post" id="alumni">                                                              
+<table width="100%" border="0" align="center">
+  <tr>
+    <td width="10%" align="left"><label> NIK </label></td>
+    <td width="4%" align="center">:</td>
+    <td width="86%"><div><input type="text" name="nik" class="validate[required] large" ></div></td>
+  </tr>
+  <tr>
+    <td align="left"><label> Nama </label></td>
+    <td align="center">:</td>
+    <td><div><input type="text" name="nama"  class="validate[required] large" ></div></td>
+  </tr>
+  <tr>
+    <td align="left"><label> Instansi </label></td>
+    <td align="center">:</td>
+    <td><div><input type="text" name="instansi"  class="validate[required] large" ></div></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td><div><input type="submit" value="Simpan" class="uibutton loading" title="Simpan" rel="1"><input type="reset" value="Batal" class="uibutton special"></div></td>
+  </tr>
+</table>                                          
+</form>
+</div>
+
+<?php } elseif($ket == 'edit') { ?>         
+<div class="content">  
+<div class="boxtitle"><span class="ico gray audio_knob"></span> Form input data alumni  <span class="netip"></span></div>
+<form action="<?php echo base_url(); ?>rujukan/alumni/edit" method="post" id="alumni">                                                              
+<table width="100%" border="0" align="center">
+  <tr>
+    <td width="10%" align="left"><label> NIK </label></td>
+    <td width="4%" align="center">:</td>
+    <td width="86%"><div><input type="text" name="nik" class="validate[required] large" value="<?php echo $result->nik; ?>" ></div></td>
+  </tr>
+  <tr>
+    <td align="left"><label> Nama </label></td>
+    <td align="center">:</td>
+    <td><div><input type="text" name="nama"  class="validate[required] large" value="<?php echo $result->nama; ?>" ></div></td>
+  </tr>
+  <tr>
+    <td align="left"><label> Instansi </label></td>
+    <td align="center">:</td>
+    <td><div><input type="text" name="instansi"  class="validate[required] large" value="<?php echo $result->instansi; ?>" ></div></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td><div><input type="submit" value="Simpan" class="uibutton loading" title="Simpan" rel="1"><input type="reset" value="Batal" class="uibutton special"></div></td>
+  </tr>
+</table>                                          
+</form>
+</div>
+<?php } ?>
+
 </div>

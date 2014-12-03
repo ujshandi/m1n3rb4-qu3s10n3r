@@ -32,12 +32,14 @@ class alumni extends CI_Controller {
     function index()
     {
             $data["isi"]  = 'rujukan/alumni_tambah';
+            $data["ket"]  = 'tambah';
             $this->load->view('admin/index', $data);  
     }
 
     function tambah()
     {
             $data['isi'] = 'rujukan/alumni_tambah';
+            $data["ket"]  = 'tambah';
             $this->load->view('admin/index',$data);  
     }
 
@@ -213,7 +215,7 @@ class alumni extends CI_Controller {
 
     function simpan()
     {
-        $nik=$this->input->post('nik');
+        /*$nik=$this->input->post('nik');
         $nama=$this->input->post('nama');
         $tempat_lahir=$this->input->post('tempat_lahir');
         $tanggal=$this->input->post('tgl_lahir');
@@ -236,23 +238,15 @@ class alumni extends CI_Controller {
         $pendidikan_khusus=$this->input->post('pendidikan_khusus');
         $riwayat_jabatan=$this->input->post('riwayat_jabatan');
         $riwayat_diklat_minerba=$this->input->post('riwayat_diklat_minerba');
-        $this->alumni_model->simpan($nik,$nama,$tempat_lahir,$tgl_lahir,$agama,$sex,$alamat,$email,$telepon,$instansi,$jabatan,$golongan,$alamat_kantor,$telepon_kantor,$provinsi,$kota,$klasifikasi_perusahaan,$riwayat_pendidikan,$pendidikan_ln,$pendidikan_khusus,$riwayat_jabatan,$riwayat_diklat_minerba);
+        $this->alumni_model->simpan($nik,$nama,$tempat_lahir,$tgl_lahir,$agama,$sex,$alamat,$email,$telepon,$instansi,$jabatan,$golongan,$alamat_kantor,$telepon_kantor,$provinsi,$kota,$klasifikasi_perusahaan,$riwayat_pendidikan,$pendidikan_ln,$pendidikan_khusus,$riwayat_jabatan,$riwayat_diklat_minerba);*/
+        $nik=$this->input->post('nik');
+        $nama=$this->input->post('nama');
+        $instansi=$this->input->post('instansi');
+        $this->alumni_model->simpan($nik,$nama,$instansi);
         $data['result'] = $this->alumni_model->tampildata();
-        $this->load->view('rujukan/alumni_v',$data); 
+        $this->load->view('rujukan/alumni_tampil',$data); 
     }
 
-    function hapus($alumni_id)
-    {
-        $this->alumni_model->hapus($alumni_id); 
-        $data['result'] = $this->alumni_model->tampildata();
-        $this->load->view('rujukan/alumni_v',$data);   
-    }
-
-    function tampil_ubah($alumni_id=NULL)     
-    {
-        $data['result']= $this->alumni_model->pilihdata($alumni_id);
-        $this->load->view('rujukan/alumni_v_ubah',$data);
-    }
 
     function import()
     {   
@@ -290,6 +284,28 @@ class alumni extends CI_Controller {
         echo "Data yang gagal diimport : ".$gagal .  "<br>";
         echo "back <a href='import.php'>import</a>";
                
-    }    
+    }
+
+    function hapus($alumni_id)
+    {
+        $this->diklat_model->hapus($alumni_id); 
+        $data['isi'] = 'rujukan/alumni_tampil';
+        $data['result'] = $this->alumni_model->tampildata();
+        $this->load->view('admin/index',$data);  
+    }
+    
+    function tampil_ubah($alumni_id=NULL)     
+    {
+        $data['result']= $this->alumni_model->pilihdata($alumni_id);
+        $data["isi"]  = 'rujukan/alumni_tambah';
+        $data["ket"]  = 'edit';
+        $this->load->view('admin/index', $data);
+    }
+
+    function pilihdata($alumni_id=NULL)     
+    {
+        $data['result']= $this->alumni_model->pilihdata($alumni_id);
+        $this->load->view('rujukan/alumni_view', $data);
+    }       
 
 }

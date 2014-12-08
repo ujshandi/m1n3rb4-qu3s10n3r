@@ -33,14 +33,21 @@
   </tr>
 </table>                              
 </form>
+
 <?php } elseif($ket == 'edit') { ?> 
                       
 <form action="<?php echo base_url(); ?>rujukan/instansi/edit" method="post" id="instansi">                                                           
 <table width="100%" border="0" align="center">
+
+  <tr>
+    <td width="10%" align="left"><label> Instansi ID </label></td>
+    <td width="4%" align="center">:</td>
+    <td width="86%"><div><input type="text" name="instansi_id" disabled="disabled" class="large" value="<?php echo $result->instansi_id; ?>"></div></td>
+  </tr>
   <tr>
     <td width="10%" align="left"><label> Nama instansi </label></td>
     <td width="4%" align="center">:</td>
-    <td width="86%"><div><input type="text" name="nama_instansi" class="validate[required] large" value="<?php echo $result->nama_instansi; ?>"></div></td>
+    <td width="86%"><div><input type="text" name="nama_instansi" class="large" value="<?php echo $result->nama_instansi; ?>"></div></td>
   </tr>
   <tr>
   <td width="10%" align="left"><label> Jenis instansi </label></td>

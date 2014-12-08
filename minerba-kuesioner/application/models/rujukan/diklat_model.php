@@ -40,6 +40,11 @@ class Diklat_model extends CI_Model
     {       
         return $this->db->query("insert into diklat (judul_diklat,jenis_diklat,tahun,angkatan) values('".$judul_diklat."','".$jenis_diklat."','".$tahun."','".$angkatan."')");   
     }
+
+    function edit($diklat_id,$judul_diklat,$jenis_diklat,$tahun,$angkatan)
+    {       
+        return $this->db->query("update diklat set judul_diklat = '".$judul_diklat."', jenis_diklat = '".$jenis_diklat."', tahun = '".$tahun."', angkatan = '".$angkatan."' where diklat_id='".$diklat_id."'" );   
+    }
 	
     function hapus($diklat_id)
     {

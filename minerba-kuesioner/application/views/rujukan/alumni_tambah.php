@@ -154,9 +154,14 @@
 
 <?php } elseif($ket == 'edit') { ?>         
 <div class="content">  
-<div class="boxtitle"><span class="ico gray audio_knob"></span> Form input data alumni  <span class="netip"></span></div>
+<div class="boxtitle"><span class="ico gray audio_knob"></span> Form edit data alumni  <span class="netip"></span></div>
 <form action="<?php echo base_url(); ?>rujukan/alumni/edit" method="post" id="alumni">                                                              
 <table width="100%" border="0" align="center">
+  <tr>
+    <td width="10%" align="left"><label> Alumni ID </label></td>
+    <td width="4%" align="center">:</td>
+    <td width="86%"><div><input type="text" disabled="disabled" name="alumni_id" class="validate[required] large" value="<?php echo $result->alumni_id; ?>" ></div></td>
+  </tr>
   <tr>
     <td width="10%" align="left"><label> NIK </label></td>
     <td width="4%" align="center">:</td>

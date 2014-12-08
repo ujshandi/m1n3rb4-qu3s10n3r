@@ -376,7 +376,7 @@ class Alumni_model extends CI_Model
         return $this->db->query("select * from alumni");    
     }
 
-    function simpan($nik,$nama,$tempat_lahir,$tgl_lahir,$agama,$sex,$alamat,$email,$telepon,$instansi,$jabatan,$golongan,$alamat_kantor,$telepon_kantor,$provinsi,$kota,$klasifikasi_perusahaan,$riwayat_pendidikan,$pendidikan_ln,$pendidikan_khusus,$riwayat_jabatan,$riwayat_diklat_minerba)
+    /*function simpan($nik,$nama,$tempat_lahir,$tgl_lahir,$agama,$sex,$alamat,$email,$telepon,$instansi,$jabatan,$golongan,$alamat_kantor,$telepon_kantor,$provinsi,$kota,$klasifikasi_perusahaan,$riwayat_pendidikan,$pendidikan_ln,$pendidikan_khusus,$riwayat_jabatan,$riwayat_diklat_minerba)
     {       
         return $this->db->query("insert into alumni (alumni_id, nik, nama, tempat_lahir, tgl_lahir,agama,sex,alamat,email,telepon,instansi,jabatan,golongan,alamat_kantor,telepon_kantor,provinsi,kota,klasifikasi_perusahaan,riwayat_pendidikan,pendidikan_ln,pendidikan_khusus,riwayat_jabatan,riwayat_diklat_minerba)
             values('NULL','".$nik."',
@@ -401,6 +401,16 @@ class Alumni_model extends CI_Model
                 '".$pendidikan_khusus."',
                 '".$riwayat_jabatan."',
                 '".$riwayat_diklat_minerba."')");   
+    }*/
+
+    function simpan($nik,$nama,$instansi)
+    {
+        return $this->db->query("insert into alumni (alumni_id,nik,nama,instansi) values('NULL','".$nik."','".$nama."','".$instansi."')");
+    }
+
+    function edit($alumni_id,$nik,$nama,$instansi)
+    {
+        return $this->db->query("update alumni set nik = '".$nik."', nama = '".$nama."', instansi = '".$instansi."' where alumni_id = '".$alumni_id."'");
     }
 
     function simpan_upload($nik,$nama)

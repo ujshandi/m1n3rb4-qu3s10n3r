@@ -247,6 +247,18 @@ class alumni extends CI_Controller {
         $this->load->view('rujukan/alumni_tampil',$data); 
     }
 
+     function edit()
+    {
+        $alumni_id=$this->input->post('alumni_id');
+        $nik=$this->input->post('nik');
+        $nama=$this->input->post('nama');
+        $instansi=$this->input->post('instansi');
+        $this->alumni_model->edit($alumni_id,$nik,$nama,$instansi);
+        $data['isi'] = 'rujukan/alumni_tampil';
+        $data['result'] = $this->alumni_model->tampildata();
+        $this->load->view('admin/index',$data);  
+    }
+
 
     function import()
     {   

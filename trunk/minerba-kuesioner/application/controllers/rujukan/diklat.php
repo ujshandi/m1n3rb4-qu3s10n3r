@@ -64,6 +64,19 @@ class diklat extends CI_Controller {
             $this->load->view('admin/index', $data);
     }
 
+    function edit()
+    {
+            $diklat_id=$this->input->post('diklat_id');
+            $judul_diklat=$this->input->post('judul_diklat');
+            $jenis_diklat=$this->input->post('jenis_diklat');
+            $tahun=$this->input->post('tahun');
+            $angkatan=$this->input->post('angkatan');
+            $this->diklat_model->edit($diklat_id,$judul_diklat,$jenis_diklat,$tahun,$angkatan);
+            $data['result'] = $this->diklat_model->tampildata();
+            $data["isi"]  = 'rujukan/diklat_tampil';
+            $this->load->view('admin/index', $data);
+    }
+
     function hapus($diklat_id)
     {
         $this->diklat_model->hapus($diklat_id); 

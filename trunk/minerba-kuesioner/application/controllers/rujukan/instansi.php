@@ -63,10 +63,10 @@ class instansi extends CI_Controller {
 
     function edit()
     {
-            
+            $instansi_id=$this->input->post('instansi_id');
             $nama_instansi=$this->input->post('nama_instansi');
             $jenis_instansi=$this->input->post('jenis_instansi');
-            $this->instansi_model->edit($nama_instansi,$jenis_instansi);
+            $this->instansi_model->edit($instansi_id,$nama_instansi,$jenis_instansi);
             $data['result'] = $this->instansi_model->tampildata();
             $data["isi"]  = 'rujukan/instansi_tampil';
             $this->load->view('admin/index', $data);

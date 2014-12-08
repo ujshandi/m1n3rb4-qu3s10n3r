@@ -28,22 +28,25 @@ class instansi_model extends CI_Model
 	    
     function tampildata()
     {       
-        return $this->db->query("select * from instansi order by instansi_id");    
+        return $this->db->query("SELECT * FROM instansi order by instansi_id");    
     }
 
     function tampil_id()
     {       
-        return $this->db->query("select * from instansi");    
+        return $this->db->query("SELECT * FROM instansi");    
     }
 
     function simpan($nama_instansi,$jenis_instansi)
     {       
-        return $this->db->query("insert into instansi (nama_instansi,jenis_instansi) values('".$nama_instansi."','".$jenis_instansi."')");   
+        return $this->db->query("INSERT INTO instansi (nama_instansi,jenis_instansi) values('".$nama_instansi."','".$jenis_instansi."')");   
     }
 
-    function edit($instansi_id,$nama_instansi,$jenis_instansi)
-    {       
-        return $this->db->query("update instansi set nama_instansi='".$nama_instansi."',jenis_instansi='".$jenis_instansi."' where instansi_id = '".$instansi_id."'");   
+    public function edit($instansi_id, $nama_instansi, $jenis_instansi) 
+    {
+        $this->db->where('instansi_id',$instansi_id);
+        $this->db->set('nama_instansi',$nama_instansi);
+        $this->db->set('jenis_instansi',$jenis_instansi);
+        return $this->db->update('instansi');
     }
 	
     function hapus($instansi_id)
@@ -53,7 +56,7 @@ class instansi_model extends CI_Model
 
     function pilihdata($instansi_id)
     {
-       return $this->db->query( " SELECT * FROM instansi where instansi_id='".$instansi_id."'")->row();
+       return $this->db->query( "SELECT * FROM instansi where instansi_id='".$instansi_id."'")->row();
     }
 
 }

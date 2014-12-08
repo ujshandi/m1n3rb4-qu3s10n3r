@@ -44,9 +44,16 @@
   </tr>
 </table>                                          
 </form>
+
 <?php } elseif($ket == 'edit') { ?> 
 <form action="<?php echo base_url(); ?>rujukan/diklat/edit" method="post" id="diklat">                                                              
 <table width="100%" border="0" align="center">
+
+  <tr>
+    <td width="10%" align="left"><label> Diklat ID </label></td>
+    <td width="4%" align="center">:</td>
+    <td width="86%"><div><input type="text" disabled="disabled" name="diklat_id" class="validate[required] large" value="<?php echo $result->diklat_id; ?>" ></div></td>
+  </tr>
   <tr>
     <td width="10%" align="left"><label> Judul Diklat </label></td>
     <td width="4%" align="center">:</td>

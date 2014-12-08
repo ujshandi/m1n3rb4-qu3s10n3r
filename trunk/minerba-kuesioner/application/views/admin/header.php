@@ -136,10 +136,11 @@
               <div id="left_menu">
                     <ul id="main_menu" class="main_menu">
                       <li class="limenu"><a href="dashboard.html"><span class="ico gray shadow home"></span><b>Dashboard</b></a></li>
-                      <li class="limenu"><a href="#"><span class="ico gray shadow window"></span><b>Form Alumni</b></a>
-                        <ul>
-                          <li><a href="<?php echo base_url(); ?>rujukan/alumni"> Input Data</a></li>
-                          <li><a href="<?php echo base_url(); ?>rujukan/alumni/tampil"> Lihat Data</a></li>
+                      <li class="limenu"><a href="#"><span class="ico gray  shadow paragraph_align_left"></span><b>Master</b></a>
+                          <ul>
+                          <li><a href="<?php echo base_url(); ?>rujukan/diklat/tampil">Diklat</a></li>
+                          <li><a href="<?php echo base_url(); ?>rujukan/instansi/tampil">Instansi</a></li>
+                          <li><a href="<?php echo base_url(); ?>rujukan/alumni/tampil">Alumni</a></li>
                         </ul>
                       </li>
                       <li class="limenu"><a href="#"><span class="ico gray shadow abacus"></span><b>Kuesioner</b></a>
@@ -148,12 +149,12 @@
                           <li><a href="<?php echo base_url(); ?>rujukan/kuesioner/tampil"> Lihat Data</a></li>
                         </ul>
                       </li>
-                      <li class="limenu"><a href="#"><span class="ico gray  shadow paragraph_align_left"></span><b>Model Jawaban</b></a>
+                      <!-- <li class="limenu"><a href="#"><span class="ico gray  shadow paragraph_align_left"></span><b>Model Jawaban</b></a>
                           <ul>
                           <li><a href="<?php echo base_url(); ?>rujukan/model_jawaban"> Input Data</a></li>
                           <li><a href="<?php echo base_url(); ?>rujukan/model_jawaban/tampil"> Lihat Data</a></li>
                         </ul>
-                      </li>
+                      </li> -->
                     </ul>
               </div>
 
